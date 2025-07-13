@@ -24,6 +24,9 @@ const ScrollingText = () => {
         <div className="scroll-text text-pink-900 text-6xl font-bold whitespace-nowrap ml-12">
           Angel Face, Devil Thoughts
         </div>
+        <div className="scroll-text text-pink-900 text-6xl font-bold whitespace-nowrap ml-12">
+          Angel Face, Devil Thoughts
+        </div>
       </div>
     </section>
   );
