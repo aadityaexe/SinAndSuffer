@@ -1,5 +1,56 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "DevilTail";
+  src: url("../public/fonts/Devil Tail.otf") format("opentype");
+
+}
+
+@font-face {
+  font-family: "DevilStory";
+  src: url("../public/fonts/Devil\ Story\ TTF\ Personal.ttf") format("opentype");
+
+}
+
+@font-face {
+  font-family: "GhostDemo";
+  src: url("../public/fonts/Ghost\ Demon\ TTF\ Demo.ttf") format("truetype");
+
+}
+
+@font-face {
+  font-family: "Romanzo";
+  src: url("../public/fonts/Romanzo.ttf") format("truetype");
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DevilStory", sans-serif;
+}
+
+p,
+span,
+a,
+button,
+input,
+textarea {
+  font-family: "Romanzo", sans-serif;
+}
+
+.scroll-text {
+  font-family: "DevilTail", sans-serif;
+  color: #ff007f;
+  /* Hot pink for scrolling text */
+  animation: scrollText 20s linear infinite;
+}
+
+
+
 /* UNIVERSAL ANIME THEME BASED ON IMAGE */
 * {
   box-sizing: border-box;
