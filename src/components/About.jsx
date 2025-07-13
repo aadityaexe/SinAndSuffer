@@ -67,7 +67,7 @@ const About = () => {
           <h2 className="text-5xl font-extrabold text-gray-800 mb-6">
             About Us
           </h2>
-          <p className="text-lg md:text-xl leading-relaxed text-gray-700">
+          <p className="text-3xl leading-relaxed text-gray-700">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
             ultrices nulla eu dignissim convallis. Suspendisse nec turpis at
             odio finibus porta. Sed ut perspiciatis unde omnis iste natus error
