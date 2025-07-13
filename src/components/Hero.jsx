@@ -57,7 +57,7 @@ const Hero = () => {
       // }}
     >
       {/* Left Content */}
-      <div className="md:w-1/2 text-center md:text-left space-y-6">
+      <div className="md:w-1/2 text-center md:text-left space-y-6 gap-5">
         <h1
           ref={headingRef}
           className="text-4xl md:text-6xl font-extrabold leading-tight"
