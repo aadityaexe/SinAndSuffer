@@ -80,7 +80,7 @@ const Faq = () => {
               className="border border-gray-300 rounded-xl p-5 shadow-md transition-all overflow-hidden text-left"
             >
               <button
-                className="w-full flex justify-between items-center text-left text-lg md:text-xl font-semibold"
+                className="w-full flex justify-between items-center text-left text-3xl  font-semibold"
                 onClick={() => toggleFAQ(index)}
               >
                 {faq.question}
@@ -97,7 +97,7 @@ const Faq = () => {
                   overflow: "hidden",
                   opacity: expanded.includes(index) ? 1 : 0,
                 }}
-                className="faq-answer text-gray-600 text-base mt-3 text-justify"
+                className="faq-answer text-gray-600 text-3xl mt-3 text-justify"
               >
                 <p>{faq.answer}</p>
               </div>
