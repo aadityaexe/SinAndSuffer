@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-
+import HeroImg from "../assets/heroImg.png";
+import HeroBgImg from "../assets/heroBg.png"; // Adjust the path as necessary
 const Hero = () => {
   const headingRef = useRef(null);
   const imageRef = useRef(null);
@@ -50,11 +51,10 @@ const Hero = () => {
 
   return (
     <section
-      className="min-h-screen bg-cover bg-center bg-no-repeat flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-24 py-16 gap-12 text-black"
-      style={{
-        backgroundImage:
-          "url('https://images.unsplash.com/photo-1614064641938-eb3b49943c46?auto=format&fit=crop&w=2560&q=80')",
-      }}
+      className="min-h-screen   flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-24 py-16 gap-12 text-black"
+      // style={{
+      //   backgroundImage: `url(${HeroBgImg})`,
+      // }}
     >
       {/* Left Content */}
       <div className="md:w-1/2 text-center md:text-left space-y-6">
@@ -85,7 +85,7 @@ const Hero = () => {
       <div className="md:w-1/2 flex justify-center items-center">
         <img
           ref={imageRef}
-          src="https://cryptologos.cc/logos/ethereum-eth-logo.png?v=030"
+          src={HeroImg}
           alt="Token"
           className="w-64 md:w-96 h-auto drop-shadow-2xl"
         />
