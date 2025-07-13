@@ -1,1 +1,97 @@
 @import "tailwindcss";
+
+/* UNIVERSAL ANIME THEME BASED ON IMAGE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fbe9f0;
+  /* Soft white for text */
+  background-color: #000000;
+  /* Dominant black background */
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+/* Body & HTML */
+html,
+body {
+  height: 100%;
+  background-color: #000000;
+  color: #fbe9f0;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ff007f;
+  /* Hot pink for emphasis */
+}
+
+/* Paragraphs */
+p {
+  color: #fbe9f0;
+}
+
+/* Links */
+a {
+  color: #ff007f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d00040;
+}
+
+/* Buttons */
+button {
+  background-color: #ff007f;
+  color: #000;
+  border: 2px solid #fbe9f0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #d00040;
+  color: #fff;
+}
+
+/* Inputs */
+input,
+textarea {
+  background-color: #1a1a1a;
+  color: #fbe9f0;
+  border: 1px solid #ff007f;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* Selection (highlighting text) */
+::selection {
+  background-color: #ff007f;
+  color: #000;
+}
+
+/* Scrollbar for WebKit */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff007f;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d00040;
+}
