@@ -33,7 +33,7 @@ h6 {
 
 /* Paragraphs */
 p {
-  color: #fbe9f0;
+  color: #f8bbd3;
 }
 
 /* Links */
@@ -88,10 +88,10 @@ textarea {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ff007f;
+  background: #ff0044;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #d00040;
+  background: #a50636;
 }
