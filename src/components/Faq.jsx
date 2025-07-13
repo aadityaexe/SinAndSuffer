@@ -73,7 +73,7 @@ const Faq = () => {
         Frequently Asked Questions
       </h2>
       <section className=" flex items-center justify-center px-4 md:px-10 py-16 bg-white text-black">
-        <div className="max-w-3xl w-full space-y-6 text-center">
+        <div className="max-w-3xl w-full space-y-6 text-center m-6">
           {faqs.slice(0, visibleCount).map((faq, index) => (
             <div
               key={index}
