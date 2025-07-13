@@ -14,7 +14,7 @@ const Navbar = () => {
         </h1>
 
         {/* Desktop Nav */}
-        <ul className="hidden md:flex space-x-12 text-xl xl:text-2xl font-semibold gap-6">
+        <ul className="hidden md:flex space-x-12 text-3xl xl:text-4xl font-semibold gap-6">
           <li>
             <a
               href="#about"
@@ -65,7 +65,7 @@ const Navbar = () => {
       {/* Mobile Dropdown */}
       {isOpen && (
         <div className="md:hidden bg-black border-t border-pink-600 px-6 pb-4">
-          <ul className="flex flex-col space-y-4 text-lg font-medium">
+          <ul className="flex flex-col space-y-4 text-3xl font-medium">
             <li>
               <a href="#about" className="text-pink-100 hover:text-pink-500">
                 About
