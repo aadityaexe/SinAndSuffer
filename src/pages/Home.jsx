@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import Faq from "../components/Faq";
 import ScrollingText from "../components/ScrollingText";
 import Footer from "../components/Footer";
+import Tokenomics from "../components/Tokenomics.jsx";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Hero />
       <ScrollingText />
       <About />
+      <Tokenomics />
       <Faq />
       <Footer />
     </div>
