@@ -1362,4 +1362,971 @@ export const faqs = [
     question: "Why do we chase what destroys us?",
     answer: "Because destruction whispers sweetly in lust's voice.",
   },
+  {
+    question: "Why did I compare her to others?",
+    answer:
+      "Because you measured her worth like meat. Now, in Hell, you are compared to every better man — while blades whisper their scores into your spine.",
+  },
+  {
+    question: "What if I rated her body out loud?",
+    answer:
+      "Then your body is now displayed, ranked, and carved by demons who find you lacking — and they never stop ranking.",
+  },
+  {
+    question: "Was it wrong to control what she wore?",
+    answer:
+      "Now Hell dresses you in shame and molten chains. Every outfit stitched from your control — burning tighter with every breath.",
+  },
+  {
+    question: "Why does my girlfriend cry in my memories?",
+    answer:
+      "Because her tears weren’t water — they were warnings. Now they rain in Hell, flooding your cell, salt and sorrow in every drop.",
+  },
+  {
+    question: "What if I said I owned her?",
+    answer:
+      "Then Hell owns you now. And your leash is made from the hair you said looked better straight.",
+  },
+  {
+    question: "Why did I cheat and still expect loyalty?",
+    answer:
+      "Because your pride was louder than your guilt. Now, in Hell, you're kissed by serpents that lie like you — until they bite.",
+  },
+  {
+    question: "What if I watched other women while holding her hand?",
+    answer:
+      "Then your eyes are now glass marbles, plucked and served to fire-winged crows in the Halls of Regret.",
+  },
+  {
+    question: "Why do her screams follow me?",
+    answer:
+      "Because they echo through Hell’s corridors — her silence twisted into sirens that rip through your mind forever.",
+  },
+  {
+    question: "What if I only wanted her body?",
+    answer:
+      "Now you're bodyless — a soul chained in a furnace, moaning through smoke that tastes like skin you objectified.",
+  },
+  {
+    question: "Why does the fire crawl up my chest?",
+    answer:
+      "Because you once measured her chest with your stare. Now Hell measures yours with fire, every second of eternity.",
+  },
+  {
+    question: "Was it wrong to tell her she’s ‘not like other girls’?",
+    answer:
+      "Yes. Now Hell sends those ‘other girls’ to tear your soul apart, each dressed in your forgotten lies.",
+  },
+  {
+    question: "Why are mirrors screaming at me?",
+    answer:
+      "Because every one shows the monster you became — and in Hell, monsters can’t look away.",
+  },
+  {
+    question: "What if I joked about her appearance?",
+    answer:
+      "Now demons joke about yours. Every laugh slices deeper, every chuckle carves shame into your flesh.",
+  },
+  {
+    question: "Why do my fingers bleed in Hell?",
+    answer:
+      "Because they touched without care. Now every digit is unwrapped, nerve by nerve, by Her attendants.",
+  },
+  {
+    question: "What if I blamed her for my cheating?",
+    answer:
+      "Then blame is now your cellmate. It sleeps beside you — whispering every excuse back into your ears with iron breath.",
+  },
+  {
+    question: "Why is the ceiling made of eyes?",
+    answer:
+      "Because in life, you stared too long. Now Hell stares back — and it never blinks.",
+  },
+  {
+    question: "What if I called her dramatic?",
+    answer:
+      "Now drama is your sentence. Her tears become rivers that drown you nightly — while the Furies sing your shame.",
+  },
+  {
+    question: "Why does Hell brand my lips?",
+    answer:
+      "Because they lied sweetly and kissed carelessly. Now every word burns on exit, and every kiss leaves rot.",
+  },
+  {
+    question: "Was I wrong to manipulate her with love?",
+    answer:
+      "Love is sacred. You forged it into a leash. Now Hell pulls it tight with every beat of her phantom heart.",
+  },
+  {
+    question: "Why are there chains on my voice?",
+    answer:
+      "Because you silenced hers. Now yours must scream just to be heard by no one.",
+  },
+  {
+    question: "What if I gaslit her until she broke?",
+    answer:
+      "Then in Hell, your reality is shattered — rebuilt daily by tormentors who whisper ‘It’s all in your head’ as they peel back your skin.",
+  },
+  {
+    question: "Why do I feel her breath in my ear?",
+    answer:
+      "Because you never listened. Now her ghost whispers every forgotten plea, louder each night.",
+  },
+  {
+    question: "What if I told her she was lucky to have me?",
+    answer:
+      "Now luck is reversed. And you are bound to a throne of thorns — applauding every man she chooses instead.",
+  },
+  {
+    question: "Why is the sky bleeding?",
+    answer:
+      "Because your promises were made under it. Now Hell bleeds them out — one drop per betrayal.",
+  },
+  {
+    question: "Was it wrong to say she was ‘mine’?",
+    answer:
+      "Now you're hers. And she’s learned from Hell how to own beautifully.",
+  },
+  {
+    question: "What if I only noticed her when others looked?",
+    answer:
+      "Then Hell parades you naked before mocking shadows, noticed only when you beg to disappear.",
+  },
+  {
+    question: "Why is my heart beating outside my chest?",
+    answer:
+      "Because you played with hers. Now yours is kept in a cage — watched by Her, forever untouched.",
+  },
+  {
+    question: "Why do I see her everywhere?",
+    answer:
+      "Because guilt blooms like wildfire here. And her face is the seed you watered with lies.",
+  },
+  {
+    question: "What if I threatened to leave just to control her?",
+    answer:
+      "Now you're left. Always. In every room. While whispers of love echo from doors you'll never reach.",
+  },
+  {
+    question: "Why do claws drag my feet at night?",
+    answer:
+      "Because you walked away when she begged. Now Hell walks you back, step by bloody step.",
+  },
+  {
+    question: "Why does my spine burn when I sleep?",
+    answer:
+      "Because you turned your back on her pain. Now Hell has branded you where you fled.",
+  },
+  {
+    question: "What if I used her secrets against her?",
+    answer:
+      "Then your every secret is now on display — carved into the walls of Hell’s cathedral of betrayal.",
+  },
+  {
+    question: "Why do I hear her heartbeat in the walls?",
+    answer:
+      "Because you ignored it in life. Now it haunts every step, louder with each regret.",
+  },
+  {
+    question: "What if I told her what to eat?",
+    answer:
+      "Now you're fed the same guilt daily — raw, alive, and screaming back.",
+  },
+  {
+    question: "Why does my shadow attack me?",
+    answer:
+      "Because your true self was darker than light could handle. Hell turned it loose.",
+  },
+  {
+    question: "What if I pressured her to send photos?",
+    answer:
+      "Then your eyes are sewn open. And now the photos look back — full of rage and flame.",
+  },
+  {
+    question: "Why do I wake up inside a cage?",
+    answer:
+      "Because you caged her heart with jealousy. Now Hell returns the favor, with rusted steel and screams.",
+  },
+  {
+    question: "What if I said she was too emotional?",
+    answer:
+      "Now every emotion you denied her floods your soul — a tidal wave of sorrow and fury that never ebbs.",
+  },
+  {
+    question: "Why do my dreams end in fire?",
+    answer:
+      "Because every lie you told lit the match. And dreams are honest here.",
+  },
+  {
+    question: "What happens to those who treat women like rewards?",
+    answer:
+      "They are turned into prizes — hunted nightly by beasts made of every woman they belittled.",
+  },
+  {
+    question: "Why does Hell smell like roses and blood?",
+    answer:
+      "Because you gave roses when you should’ve given respect. Now the thorns claim their due.",
+  },
+  {
+    question: "What if I only loved her when she looked perfect?",
+    answer:
+      "Then perfection is now your curse — chased by twisted beauty, flawless and fanged.",
+  },
+  {
+    question: "Why is my mouth full of ashes?",
+    answer: "Because your love burned false. Now only cinders remain.",
+  },
+  {
+    question: "What if I said I loved her — just to keep her quiet?",
+    answer:
+      "Then your love is stitched into the mouths of demons. And they speak it better than you ever did.",
+  },
+  {
+    question: "Why does Hell echo with her name?",
+    answer: "Because her name was holy, and you spoke it like sin.",
+  },
+  {
+    question: "Why do flames dance when I lie?",
+    answer:
+      "Because Hell recognizes a fellow performer. And it always wants an encore.",
+  },
+  {
+    question: "What if I told her who she could be?",
+    answer:
+      "Then now you are no one. And Hell refuses to let you remember your name.",
+  },
+  {
+    question: "Why does Her shadow smile?",
+    answer: "Because in Hell, even justice wears lipstick.",
+  },
+  {
+    question: "Why did I follow her home?",
+    answer:
+      "Because you mistook fear for flirtation. Now you walk in endless circles, chased by what you thought was harmless.",
+  },
+  {
+    question: "Why did I stare when she said stop?",
+    answer:
+      "Because your gaze was a weapon. Now the walls of your chamber watch you—without blinking.",
+  },
+  {
+    question: "Was it wrong to call out to her?",
+    answer: "Your voice clawed at her soul. Now silence is your scream.",
+  },
+  {
+    question: "Why can’t I close my eyes?",
+    answer:
+      "Because now she’s the one watching. And her glare cuts deeper than yours ever did.",
+  },
+  {
+    question: "What if I just complimented her body?",
+    answer: "Then your tongue is now hung on hooks, each word dripping shame.",
+  },
+  {
+    question: "Why did I follow her online?",
+    answer:
+      "Because obsession is cowardice wrapped in code. Now you're haunted by every unread message.",
+  },
+  {
+    question: "She didn’t say no—did she?",
+    answer: "No answer is not consent. But Hell answered for her.",
+  },
+  {
+    question: "Why do mirrors whisper back?",
+    answer:
+      "Because you made her reflection a prison. Now yours is your warden.",
+  },
+  {
+    question: "What if I just touched her arm?",
+    answer: "Now arms reach for you in the dark. They do not ask permission.",
+  },
+  {
+    question: "Why is my bed made of thorns?",
+    answer:
+      "Because you thought you were entitled to comfort while she bled silently.",
+  },
+  {
+    question: "What if I stared at her lips?",
+    answer: "Now lips surround you. None speak. All bite.",
+  },
+  {
+    question: "Why do I hear screams when I breathe?",
+    answer: "Because every breath was once taken at her expense.",
+  },
+  {
+    question: "Is lust really that wrong?",
+    answer: "Lust without respect becomes a leash. Welcome to the kennel.",
+  },
+  {
+    question: "What happens to those who stare too long?",
+    answer:
+      "Their eyes are sewn open—forever replaying what should have never been watched.",
+  },
+  {
+    question: "Was calling her a tease a sin?",
+    answer:
+      "It was a curse disguised as flattery. Now your name is a hiss in the shadows.",
+  },
+  {
+    question: "I didn’t touch her. Why am I here?",
+    answer:
+      "Intent drips louder in Hell than action. Your hunger brought you here.",
+  },
+  {
+    question: "Why does she laugh when I beg?",
+    answer:
+      "Because you mistook her fear for foreplay. Now she returns the favor—sweetly.",
+  },
+  {
+    question: "Why is everything here so exposed?",
+    answer:
+      "Because you stripped others with your words. Now your soul stands bare.",
+  },
+  {
+    question: "What happens to catcallers?",
+    answer:
+      "Their mouths are sewn with burning thread. But the echo still escapes.",
+  },
+  {
+    question: "Why did I keep messaging her?",
+    answer:
+      "Because you confused persistence with romance. Now your inbox is a pit that screams back.",
+  },
+  {
+    question: "What if I laughed when she said no?",
+    answer: "Now laughter follows you. Mocking. Endless. Hollow.",
+  },
+  {
+    question: "Why is my tongue gone?",
+    answer:
+      "Because your words were daggers. Now silence wraps your throat like justice.",
+  },
+  {
+    question: "Why does the fire lick my spine?",
+    answer: "Because you pressed too close. Now heat is your only companion.",
+  },
+  {
+    question: "What if I filmed her without asking?",
+    answer:
+      "Now your every moment is projected on the walls. Every watcher wears your face.",
+  },
+  {
+    question: "Why can’t I stop shaking?",
+    answer:
+      "Because the fear you gave now lives inside you. It dances beautifully.",
+  },
+  {
+    question: "What if I made comments about her clothes?",
+    answer:
+      "You thought fabric was an invitation. Now your skin is the showpiece.",
+  },
+  {
+    question: "Why does the air taste like guilt?",
+    answer: "Because it's exhaled by all the women you made uncomfortable.",
+  },
+  {
+    question: "Why do they keep whispering her name?",
+    answer:
+      "Because her silence was louder than your screams. Now it echoes back forever.",
+  },
+  {
+    question: "What happens to men who treat women like prizes?",
+    answer: "They become trophies—mounted, motionless, forgotten.",
+  },
+  {
+    question: "Why is everything watching me?",
+    answer: "Because you made her feel that way. Now it’s your turn.",
+  },
+  {
+    question: "Why do I bleed when I compliment someone?",
+    answer:
+      "Because your compliments were barbed. Hell remembers tone better than you do.",
+  },
+  {
+    question: "What if I made her uncomfortable by accident?",
+    answer: "Hell is full of 'accidents' wearing cologne and excuses.",
+  },
+  {
+    question: "Why do I feel like prey?",
+    answer:
+      "Because you were once the predator. Welcome to the other side of the gaze.",
+  },
+  {
+    question: "Why do hands crawl up my legs?",
+    answer: "Because you once made her legs a roadmap without consent.",
+  },
+  {
+    question: "What if I watched her sleep?",
+    answer: "Now sleep watches you. And it has teeth.",
+  },
+  {
+    question: "Why do chains wrap around my words?",
+    answer: "Because your voice was once a cage for others.",
+  },
+  {
+    question: "Why are my fingers on fire?",
+    answer: "Because they touched without being invited.",
+  },
+  {
+    question: "Was flirting a sin?",
+    answer: "Only when it wasn’t mutual. Now your charm is a curse.",
+  },
+  {
+    question: "What if I objectified her as a joke?",
+    answer: "Hell doesn’t laugh with you. Only at you.",
+  },
+  {
+    question: "Why can’t I look away?",
+    answer:
+      "Because now she’s the one on display. And you’re the one being judged.",
+  },
+  {
+    question: "Why do the walls whisper ‘no’?",
+    answer:
+      "Because you never listened to it before. Now it’s all you’ll ever hear.",
+  },
+  {
+    question: "What happens to men who grope in crowds?",
+    answer:
+      "They spend eternity in a crowd of claws and gasps—forever touched, never wanted.",
+  },
+  {
+    question: "Why does my reflection cry?",
+    answer: "Because it’s finally seeing what you were.",
+  },
+  {
+    question: "Why are my hands bound?",
+    answer: "Because they reached where they didn’t belong.",
+  },
+  {
+    question: "What if I said she was asking for it?",
+    answer: "Now you are asking for it. And Hell answers… creatively.",
+  },
+  {
+    question: "Why do shadows whisper 'monster'?",
+    answer: "Because the shape fits.",
+  },
+  {
+    question: "What if I laughed at her fear?",
+    answer: "Now laughter is your torment. Hers.",
+  },
+  {
+    question: "Why am I on trial?",
+    answer:
+      "Because you judged her with your eyes and hands. Now judgment sees you clearly.",
+  },
+  {
+    question: "Why does the fire crawl up my thighs?",
+    answer: "Because your gaze once did the same. Now the burn stays.",
+  },
+  {
+    question: "Why is my name erased?",
+    answer: "Because you only ever used hers as a conquest.",
+  },
+  {
+    question: "What if I forced her to smile?",
+    answer: "Now you smile too. With broken teeth and stitched lips.",
+  },
+  {
+    question: "Why do I smell perfume in the dark?",
+    answer: "Because desire turned cruel, and her scent became your curse.",
+  },
+  {
+    question: "What happens to men who leer?",
+    answer: "They are leered at in return—by the hungering dark.",
+  },
+  {
+    question: "What if I touched her without asking?",
+    answer: "Then every touch you receive now is barbed wire and regret.",
+  },
+  {
+    question: "Why does her name burn?",
+    answer: "Because guilt brands deeper than fire ever could.",
+  },
+  {
+    question: "Why do I relive it every night?",
+    answer: "Because your memory is her witness—and Hell is very thorough.",
+  },
+  {
+    question: "What happens to men who confuse control with care?",
+    answer:
+      "They lose both. And serve forever beneath the throne they tried to sit on.",
+  },
+  {
+    question: "Why do I feel hands I can’t see?",
+    answer:
+      "Because that’s what you gave her—ghost touches that never stopped haunting.",
+  },
+  {
+    question: "Why do my compliments scream now?",
+    answer: "Because they were never about her. Only about you.",
+  },
+  {
+    question: "What if I was just being a man?",
+    answer: "Then Hell teaches you how to be human.",
+  },
+  {
+    question: "Why does my name burn when spoken?",
+    answer:
+      "Because it was once whispered in control, not love. Now Hell sears it into every breath you take.",
+  },
+  {
+    question: "What if I made her feel small?",
+    answer:
+      "Then Hell makes you smaller — until even shadows forget you ever existed.",
+  },
+  {
+    question: "Why do my hands melt every night?",
+    answer:
+      "Because you used them to hold without permission. Now they're remade in dripping regret.",
+  },
+  {
+    question: "Why does my heart beat out of rhythm?",
+    answer:
+      "Because you played with hers like a toy. Now yours plays out a song of torment.",
+  },
+  {
+    question: "What if I told her she was ‘too much’?",
+    answer:
+      "Now you are trapped in a room full of 'too much' — sound, heat, memory, pain — and none of it escapes.",
+  },
+  {
+    question: "Why do Her eyes glow in the dark?",
+    answer:
+      "Because She remembers every woman you made uncomfortable. And She sees everything now.",
+  },
+  {
+    question: "What if I ignored her boundaries?",
+    answer:
+      "Then yours are gone. In Hell, even your skin doesn't belong to you.",
+  },
+  {
+    question: "Why do the walls breathe?",
+    answer:
+      "Because they're alive with the shame you buried. Now it breathes for you.",
+  },
+  {
+    question: "What happens to those who gaslight?",
+    answer:
+      "They spend eternity questioning their own screams. Truth is the demon now — and it never sleeps.",
+  },
+  {
+    question: "What if I lied to keep her around?",
+    answer:
+      "Then lies are your shackles. Each one tightens when you remember her crying face.",
+  },
+  {
+    question: "Why do I taste metal when I speak?",
+    answer:
+      "Because your words once sliced. Now they bleed back through your own tongue.",
+  },
+  {
+    question: "What if I told her no one else would want her?",
+    answer:
+      "Then Hell ensures you are the one no one ever wants — not even the monsters.",
+  },
+  {
+    question: "Why does the floor pulse like a heartbeat?",
+    answer:
+      "Because every step echoes the guilt you left behind. It follows. It pounds.",
+  },
+  {
+    question: "Why does Her voice turn to thunder?",
+    answer:
+      "Because silence is no longer an option — not for Her, and never again for you.",
+  },
+  {
+    question: "What if I threatened to hurt myself if she left?",
+    answer:
+      "Then Hell lets you leave daily — and you feel every version of her walking away. Forever.",
+  },
+  {
+    question: "Why does it rain inside my cell?",
+    answer:
+      "Because tears make excellent torture devices when collected and condensed into storms.",
+  },
+  {
+    question: "What happens to those who mock women’s pain?",
+    answer:
+      "Their laughter becomes the storm — thunder laced with screams that can’t be silenced.",
+  },
+  {
+    question: "Why is my voice gone?",
+    answer:
+      "Because you drowned hers. Now yours is swallowed by the void she once sat in.",
+  },
+  {
+    question: "What if I flirted with others to make her jealous?",
+    answer:
+      "Then demons flirt with your torment now — and they never stop until you cry beautifully.",
+  },
+  {
+    question: "Why are my teeth missing?",
+    answer:
+      "Because they were used to smile through lies. Now they belong to Her collection.",
+  },
+  {
+    question: "What if I called her 'crazy'?",
+    answer:
+      "Now insanity is your only companion — whispering that maybe she was never the broken one.",
+  },
+  {
+    question: "Why does my reflection scream?",
+    answer: "Because it finally sees you clearly. And what it sees wants out.",
+  },
+  {
+    question: "What if I used love as leverage?",
+    answer:
+      "Then Hell uses love as punishment — always shown, never given, always out of reach.",
+  },
+  {
+    question: "Why do my feet burn on every step?",
+    answer:
+      "Because you led her through emotional fire. Now Hell lets you walk the coals you lit.",
+  },
+  {
+    question: "Why is her face etched in fire?",
+    answer:
+      "Because fire remembers the scorned. And Hell never forgets the ones you made cry in silence.",
+  },
+  {
+    question: "What if I joked about hitting her?",
+    answer:
+      "Then your bones are now the punchline — shattered nightly by jesters with iron gloves.",
+  },
+  {
+    question: "Why is my back covered in eyes?",
+    answer:
+      "Because you never watched her back. Now you're watched — always, and never kindly.",
+  },
+  {
+    question: "What happens to those who belittle their partners?",
+    answer:
+      "They become small — so small they crawl through keyholes and still aren’t worth noticing.",
+  },
+  {
+    question: "Why do my lungs fill with screams?",
+    answer:
+      "Because you ignored hers. Now they echo through your breath with every inhale.",
+  },
+  {
+    question: "What if I said 'she's just being sensitive'?",
+    answer:
+      "Now your nerves are exposed, raw and open to Hell’s every whisper.",
+  },
+  {
+    question: "Why does the moon here cry blood?",
+    answer:
+      "Because it watched you treat her like a phase. Now it bleeds justice across the sky.",
+  },
+  {
+    question: "What if I told her to 'calm down'?",
+    answer:
+      "Then Hell keeps you in eternal stillness — strapped and screaming beneath Her throne.",
+  },
+  {
+    question: "Why does Her shadow sit on my chest?",
+    answer:
+      "Because you once made her carry your weight. Now she returns the favor, nightly.",
+  },
+  {
+    question: "What if I told her she wasn't enough?",
+    answer:
+      "Now you're surrounded by perfection you can never touch. And none of it sees you.",
+  },
+  {
+    question: "Why do my memories bleed?",
+    answer: "Because guilt is sharp — and memory cuts deepest in Hell.",
+  },
+  {
+    question: "What if I ghosted her?",
+    answer:
+      "Now you're the ghost — silent, forgotten, and screaming through walls no one hears.",
+  },
+  {
+    question: "Why do wolves howl when I sleep?",
+    answer:
+      "Because they smell your cowardice. And Hell’s wolves feast on men who run from love.",
+  },
+  {
+    question: "Why does every light flicker red?",
+    answer:
+      "Because love turned violent under your gaze. Now Hell paints your sins in flame.",
+  },
+  {
+    question: "What if I said she was overreacting?",
+    answer:
+      "Then Hell reacts accordingly — tenfold, nightly, beautifully brutal.",
+  },
+  {
+    question: "Why do I choke on petals?",
+    answer:
+      "Because you gave fake roses. Now their thorns bloom inside your throat.",
+  },
+  {
+    question: "Why does the floor scream when I walk?",
+    answer:
+      "Because every step you took over her feelings now returns as agony underfoot.",
+  },
+  {
+    question: "What if I made her beg to be heard?",
+    answer: "Then Hell makes you beg — but here, no one listens. Ever.",
+  },
+  {
+    question: "Why do Her wings slice the air?",
+    answer:
+      "Because justice now flies. And Her feathers are sharper than your lies.",
+  },
+  {
+    question: "What if I pressured her into things?",
+    answer:
+      "Now pressure wraps your soul — tighter, tighter, until your bones beg for release.",
+  },
+  {
+    question: "Why do the doors vanish behind me?",
+    answer:
+      "Because you closed every door on her escape. Now Hell closes yours — forever.",
+  },
+  {
+    question: "What if I thought she was ‘just emotional’?",
+    answer: "Now emotions rule here. And yours are their favorite chew toy.",
+  },
+  {
+    question: "Why is Her smile made of knives?",
+    answer:
+      "Because She learned from men like you — and sharpened every lesson.",
+  },
+  {
+    question: "What if I only loved her body?",
+    answer:
+      "Then you’ll spend eternity as one — desirable, touchable, but never truly seen.",
+  },
+  {
+    question: "Why do the walls whisper my fantasies?",
+    answer:
+      "Because Hell turns secrets into song. And your verses reek of guilt.",
+  },
+  {
+    question: "What if I fantasized about her without consent?",
+    answer:
+      "Then your mind is now the prison — and every thought claws its way out with teeth.",
+  },
+  {
+    question: "Why am I shackled to a bed of flame?",
+    answer:
+      "Because you mistook her no for a challenge. Now fire whispers ‘yes’ — and never stops burning.",
+  },
+  {
+    question: "What if I touched myself to her photo?",
+    answer:
+      "Then your hands are no longer yours. They serve her now — and she isn’t gentle.",
+  },
+  {
+    question: "Why is there moaning in the dark?",
+    answer:
+      "Because desire lives here too. But it’s starved, twisted, and hungry for your bones.",
+  },
+  {
+    question: "Was it a sin to dream of her naked?",
+    answer:
+      "Only when you never saw her soul. Now Hell strips you down — mind first, then flesh.",
+  },
+  {
+    question: "What happens to men who crave without respect?",
+    answer: "They become the feast. And Hell knows hunger that never ends.",
+  },
+  {
+    question: "Why do my lips burn with silence?",
+    answer:
+      "Because you once used them to whisper fantasies that weren’t welcome. Now silence punishes you back.",
+  },
+  {
+    question: "What if I wanted her to obey?",
+    answer: "Now you kneel. Not for pleasure — but for punishment.",
+  },
+  {
+    question: "Why is desire screaming inside me?",
+    answer:
+      "Because it knows it’s trapped. And Hell loves watching it rot slowly.",
+  },
+  {
+    question: "Can lust be punished?",
+    answer:
+      "Lust without consent is sacred fuel turned toxic. And Hell drinks it straight from your veins.",
+  },
+  {
+    question: "Why do I wake up covered in lipstick and blood?",
+    answer:
+      "Because your fantasies dressed themselves in sin — and came to collect.",
+  },
+  {
+    question: "What if I imagined her begging?",
+    answer: "Now you beg. And no one answers — not even her ghost.",
+  },
+  {
+    question: "Why do I taste her in the fire?",
+    answer:
+      "Because your thoughts summoned her without asking. Now she burns through you — from the inside out.",
+  },
+  {
+    question: "What if I wanted to dominate her?",
+    answer:
+      "Then power dominates you now. It wears heels and carries razors — and it never says safe word.",
+  },
+  {
+    question: "Why does my skin ache when I touch myself?",
+    answer:
+      "Because pleasure without permission burns in Hell. And your nerves remember every stolen spark.",
+  },
+  {
+    question: "What happens to men who only wanted control?",
+    answer:
+      "They lose all of it. Even their own name, tongue, and thoughts — claimed by She who waits below.",
+  },
+  {
+    question: "Why do I hear her breathing in the dark?",
+    answer:
+      "Because your fantasies summoned her shadow. Now it sleeps beside you — teeth-first.",
+  },
+  {
+    question: "What if I fetishized her pain?",
+    answer:
+      "Then yours becomes performance art in Hell — and every demon applauds.",
+  },
+  {
+    question: "Why does every scream turn me on?",
+    answer: "Because you're broken. And Hell finds broken men delicious.",
+  },
+  {
+    question: "Can lust make a monster?",
+    answer: "It already did. Look in the mirror — if it lets you.",
+  },
+  {
+    question: "What if I wanted to possess her?",
+    answer:
+      "Now she possesses you. Piece by piece. Desire by desecrated desire.",
+  },
+  {
+    question: "Why do I see hands in the shadows?",
+    answer:
+      "Because once you reached without consent — now they reach back, endlessly.",
+  },
+  {
+    question: "What if I turned her into a fantasy?",
+    answer:
+      "Then you become one too — faceless, used, forgotten in the next dream.",
+  },
+  {
+    question: "Why does pleasure hurt now?",
+    answer:
+      "Because in Hell, every climax costs a piece of your soul. And you're almost out.",
+  },
+  {
+    question: "Why do the flames pulse to my heartbeat?",
+    answer:
+      "Because they’re synced to your filth. Hell choreographs every beat of shame.",
+  },
+  {
+    question: "What happens to voyeurs?",
+    answer:
+      "They are displayed forever — naked, helpless, surrounded by eyes they cannot close.",
+  },
+  {
+    question: "What if I imagined her tied up?",
+    answer:
+      "Then your limbs are bound now — not with rope, but with regret that bites.",
+  },
+  {
+    question: "Why is the heat between my legs unbearable?",
+    answer: "Because lust without love turns to flame — and it crawls upward.",
+  },
+  {
+    question: "Can fantasy send you to Hell?",
+    answer:
+      "Yes. When it trespasses her peace — Hell arrives early, dressed in silk and fangs.",
+  },
+  {
+    question: "What if I called her a goddess, just to get laid?",
+    answer: "Then Hell sent you one — and She does not take betrayal lightly.",
+  },
+  {
+    question: "Why are my dreams wet with blood?",
+    answer:
+      "Because you stained desire with power. Now even dreams thirst for revenge.",
+  },
+  {
+    question: "What happens to those who confuse sex with submission?",
+    answer:
+      "They become subjects — bent, branded, and broken under Her flaming rule.",
+  },
+  {
+    question: "Why do my moans echo forever?",
+    answer:
+      "Because pleasure was stolen. And Hell repeats your crimes in stereo.",
+  },
+  {
+    question: "What if I took pleasure without giving it?",
+    answer:
+      "Then your nerves will be devoured slowly. Hell believes in balance.",
+  },
+  {
+    question: "Why does my sweat smell like perfume?",
+    answer:
+      "Because lust left a trail. And now it leads straight to your punishment.",
+  },
+  {
+    question: "What if I fantasized about her crying?",
+    answer: "Now you cry. And She watches. And She smiles.",
+  },
+  {
+    question: "Why do I hear Her heels echo through my skull?",
+    answer: "Because desire wore red. And She never left.",
+  },
+  {
+    question: "Why do chains clink when I breathe?",
+    answer:
+      "Because your breath once chased shadows. Now shadows chain you back.",
+  },
+  {
+    question: "What happens to men who called women 'sluts'?",
+    answer:
+      "They become the object of every forbidden touch — branded with the word they once spit.",
+  },
+  {
+    question: "Why is my mouth sewn shut?",
+    answer:
+      "Because your words opened wounds. Now silence stitches your sins closed.",
+  },
+  {
+    question: "What if I made her feel dirty?",
+    answer:
+      "Then filth coats your bones now — and Her tongue never tires of cleaning them with flame.",
+  },
+  {
+    question: "Why do I see Her eyes when I close mine?",
+    answer:
+      "Because you entered her in thought — now she enters you in vengeance.",
+  },
+  {
+    question: "Why does pleasure now weep?",
+    answer: "Because it remembers what it cost. And Hell charges interest.",
+  },
+  {
+    question: "What happens to those who get off on power?",
+    answer: "They kneel. Not for love. For survival.",
+  },
+  {
+    question: "What if I only chased her for the thrill?",
+    answer:
+      "Then thrill becomes your torment — always close, never yours. Ever again.",
+  },
+  {
+    question: "Why do my veins feel like fire?",
+    answer:
+      "Because lust turned toxic — and now it burns backward through your blood.",
+  },
+  {
+    question: "What if I imagined her broken?",
+    answer: "Then you are broken now. And She is the artist.",
+  },
 ];
