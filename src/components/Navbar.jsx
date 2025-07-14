@@ -6,12 +6,14 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="bg-black border-b-2 fixed border-pink-600 shadow-md w-full z-50 ">
-      <div className="max-w-[1400px] w-full mx-auto px-8 xl:px-20 py-5 flex justify-between items-center ml-7 ">
-        {/* Logo */}
-        <h1 className="text-pink-500 font-bold text-4xl lg:text-5xl">
-          AnimeVerse
-        </h1>
+    <nav className="bg-black border-b-2 fixed border-pink-600 shadow-md w-full z-50">
+      <div className="max-w-[1400px] w-full mx-auto px-8 xl:px-20 py-5 flex justify-between items-center ml-7">
+        {/* Logo + Tagline */}
+        <div className="flex flex-col">
+          <h1 className="text-pink-500 font-black text-4xl lg:text-5xl tracking-widest">
+            Sin & Suffer
+          </h1>
+        </div>
 
         {/* Desktop Nav */}
         <ul className="hidden md:flex space-x-12 text-3xl xl:text-4xl font-semibold gap-6">
@@ -26,15 +28,6 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="#contact"
-              className="text-pink-100 hover:text-pink-500 transition duration-300 relative group"
-            >
-              Contact Us
-              <span className="block h-[2px] w-0 group-hover:w-full bg-pink-600 transition-all duration-300 absolute bottom-[-4px] left-0"></span>
-            </a>
-          </li>
-          <li>
-            <a
               href="#roadmap"
               className="text-pink-100 hover:text-pink-500 transition duration-300 relative group"
             >
@@ -44,16 +37,25 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="#tokenomics"
+              href="#torture-stats"
               className="text-pink-100 hover:text-pink-500 transition duration-300 relative group"
             >
-              Tokenomics
+              Tortures
+              <span className="block h-[2px] w-0 group-hover:w-full bg-pink-600 transition-all duration-300 absolute bottom-[-4px] left-0"></span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="#contact"
+              className="text-pink-100 hover:text-pink-500 transition duration-300 relative group"
+            >
+              Contact
               <span className="block h-[2px] w-0 group-hover:w-full bg-pink-600 transition-all duration-300 absolute bottom-[-4px] left-0"></span>
             </a>
           </li>
         </ul>
 
-        {/* Hamburger Menu Icon */}
+        {/* Hamburger Icon */}
         <div
           className="md:hidden text-pink-500 cursor-pointer"
           onClick={toggleMenu}
@@ -64,29 +66,38 @@ const Navbar = () => {
 
       {/* Mobile Dropdown */}
       {isOpen && (
-        <div className="md:hidden bg-black border-t border-pink-600 px-6 pb-4">
-          <ul className="flex flex-col space-y-4 text-3xl font-medium">
+        <div className="md:hidden bg-black border-t border-pink-600 px-6 pb-6">
+          <ul className="flex flex-col space-y-6 text-3xl font-medium pt-4">
             <li>
-              <a href="#about" className="text-pink-100 hover:text-pink-500">
+              <a
+                href="#about"
+                className="text-pink-100 hover:text-pink-400 transition"
+              >
                 About
               </a>
             </li>
             <li>
-              <a href="#contact" className="text-pink-100 hover:text-pink-500">
-                Contact Us
-              </a>
-            </li>
-            <li>
-              <a href="#roadmap" className="text-pink-100 hover:text-pink-500">
+              <a
+                href="#roadmap"
+                className="text-pink-100 hover:text-pink-400 transition"
+              >
                 Roadmap
               </a>
             </li>
             <li>
               <a
-                href="#tokenomics"
-                className="text-pink-100 hover:text-pink-500"
+                href="#torture-stats"
+                className="text-pink-100 hover:text-pink-400 transition"
               >
-                Tokenomics
+                Tortures
+              </a>
+            </li>
+            <li>
+              <a
+                href="#contact"
+                className="text-pink-100 hover:text-pink-400 transition"
+              >
+                Contact
               </a>
             </li>
           </ul>

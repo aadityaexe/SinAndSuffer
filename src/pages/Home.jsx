@@ -5,8 +5,8 @@ import Hero from "../components/Hero.jsx";
 import Faq from "../components/Faq.jsx";
 import ScrollingText from "../components/ScrollingText.jsx";
 import Footer from "../components/Footer.jsx";
-import Tokenomics from "../components/Tokenomics.jsx";
 import Roadmap from "../components/Roadmap.jsx";
+import TortureChart from "../components/TortureChart.jsx";
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
       <Hero />
       <ScrollingText />
       <About />
-      <Tokenomics />
+      <TortureChart />
       <Roadmap />
       <Faq />
       <Footer />

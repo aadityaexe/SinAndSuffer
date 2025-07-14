@@ -6,27 +6,27 @@ import phaseFourImage from "../assets/p4.jpg";
 const Roadmap = () => {
   const phases = [
     {
-      title: "Phase 1: Gather Support",
+      title: "Phase I: The Temptation",
       description:
-        "Start by talking to classmates and gathering support for your candidacy.",
+        'You flirted with fire. You bit the fruit. You said, "Just once And the gates opened".',
       image: phaseOneImage,
     },
     {
-      title: "Phase 2: Create a Campaign Plan",
+      title: "Phase 2: The Seduction",
       description:
-        "Draft a detailed plan that outlines your goals and strategies for your campaign.",
+        'Demons in silk, kisses that sting, moans that echo through the flames.You begged, "Harder." Hell listened.',
       image: phaseTwoImage,
     },
     {
-      title: "Phase 3: Promote Your Candidacy",
+      title: "Phase 3: The Possession",
       description:
-        "Use posters, social media, and word of mouth to promote your campaign.",
+        'Now your skin is memory, your soul belongs to the heat.You don’t scream. You whisper "More."',
       image: phaseThreeImage,
     },
     {
-      title: "Phase 4: Election Day!",
+      title: "Phase 4:  The Endless Night",
       description:
-        "Remind your supporters to vote and celebrate the journey together!",
+        "There’s no time here. Only touch, torment, and twisted love stories carved in ash.",
       image: phaseFourImage,
     },
   ];

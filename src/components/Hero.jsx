@@ -62,21 +62,21 @@ const Hero = () => {
           ref={headingRef}
           className="text-4xl md:text-6xl font-extrabold leading-tight"
         >
-          The Future of DeFi is Here
+          Welcome to Hell, Sweetheart.
         </h1>
         <p
           ref={(el) => (textRefs.current[0] = el)}
           className="text-4xl  text-gray-700 max-w-xl mx-auto md:mx-0"
         >
-          Join the revolution with our next-gen token powering decentralized
-          finance and global scalability.
+          You didn’t fall from grace. You dove into desire... and now you're
+          home.
         </p>
         <div>
           <button
             ref={(el) => (textRefs.current[1] = el)}
             className="px-8 py-3 bg-black text-white text-3xl rounded-2xl font-semibold hover:bg-gray-800 transition-all duration-300"
           >
-            Buy Token
+            Enter the Fire
           </button>
         </div>
       </div>

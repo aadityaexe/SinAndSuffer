@@ -9,26 +9,28 @@ import {
 } from "recharts";
 
 const data = [
-  { name: "Team", value: 20 },
-  { name: "Advisors", value: 10 },
-  { name: "Marketing", value: 15 },
-  { name: "Public Sale", value: 25 },
-  { name: "Staking Rewards", value: 30 },
+  { name: "Soul Burn", value: 30 },
+  { name: "Lust & Seduction", value: 25 },
+  { name: "Eternal Regret", value: 15 },
+  { name: "Mind Torture", value: 20 },
+  { name: "Demonic Games", value: 10 },
 ];
 
-const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "#845EC2"];
+const COLORS = ["#FF3C38", "#FF7F50", "#6A0572", "#D72638", "#8B0000"];
 
-const Tokenomics = () => {
+const TortureChart = () => {
   return (
     <section
-      id="tokenomics"
-      className="py-16 px-6 sm:px-12 lg:px-24 xl:px-48 bg-gray-900 text-white"
+      id="torture-stats"
+      className="py-16 px-6 sm:px-12 lg:px-24 xl:px-48 bg-black text-white"
     >
       <div className="text-center mb-12">
-        <h2 className="text-4xl font-bold mb-4">Tokenomics</h2>
-        <p className="text-gray-300 max-w-2xl text-3xl mx-auto">
-          Here's a detailed breakdown of the token distribution across different
-          segments to support our ecosystem growth.
+        <h2 className="text-5xl font-bold mb-4 text-red-600">
+          Torture Breakdown
+        </h2>
+        <p className="text-gray-400 max-w-2xl text-2xl mx-auto">
+          Every soul suffers differently. Here’s how we serve pain in Hell —
+          percentages based on your sins, of course.
         </p>
       </div>
 
@@ -68,9 +70,9 @@ const Tokenomics = () => {
                 className="w-4 h-4 rounded-full"
                 style={{ backgroundColor: COLORS[index % COLORS.length] }}
               />
-              <p className="text-3xl">
-                <span className="font-semibold">{item.name}</span>: {item.value}
-                %
+              <p className="text-2xl text-gray-300">
+                <span className="font-semibold text-white">{item.name}</span>:{" "}
+                {item.value}%
               </p>
             </div>
           ))}
@@ -80,4 +82,4 @@ const Tokenomics = () => {
   );
 };
 
-export default Tokenomics;
+export default TortureChart;
