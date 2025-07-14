@@ -10,9 +10,12 @@ const Navbar = () => {
       <div className="max-w-[1400px] w-full mx-auto px-8 xl:px-20 py-5 flex justify-between items-center ml-7">
         {/* Logo + Tagline */}
         <div className="flex flex-col">
-          <h1 className="text-pink-500 font-black text-4xl lg:text-5xl tracking-widest">
-            Sin & Suffer
-          </h1>
+          <a href="#hero">
+            {" "}
+            <h1 className="text-pink-500 font-black text-4xl lg:text-5xl tracking-widest">
+              Sin & Suffer
+            </h1>
+          </a>
         </div>
 
         {/* Desktop Nav */}

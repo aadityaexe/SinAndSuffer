@@ -51,6 +51,7 @@ const Hero = () => {
 
   return (
     <section
+      id="hero"
       className="min-h-screen   flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-24 py-16 gap-12 text-black"
       // style={{
       //   backgroundImage: `url(${HeroBgImg})`,
