@@ -16,6 +16,9 @@ import tg12 from "../assets/tg12.jpg"; // Adjust the path as necessary
 import tg13 from "../assets/tg13.jpg";
 import tg14 from "../assets/tg14.jpg";
 import tg15 from "../assets/tg15.jpg";
+import tg16 from "../assets/tg16.jpg";
+import tg17 from "../assets/tg17.jpg";
+import tg18 from "../assets/tg18.jpg";
 gsap.registerPlugin(ScrollTrigger);
 
 // 👿 Add as many torture cards as you like
@@ -49,7 +52,7 @@ const tortures = [
   {
     title: "🕷 Web of Whispers",
     description: "You’re wrapped in lies — and you begged for it.",
-    img: "/images/web.jpg",
+    img: tg17,
   },
   {
     title: "🔗 Shackles of Shame",
@@ -79,7 +82,7 @@ const tortures = [
   {
     title: "🧨 Desire Detonator",
     description: "Every craving is a trap. Every climax a bomb.",
-    img: "/images/detonator.jpg",
+    img: tg18,
   },
   {
     title: "👅 Tongue of Fire",
@@ -109,7 +112,7 @@ const tortures = [
   {
     title: "🔒 Vault of Secrets",
     description: "You locked them away. Now they scream to get out.",
-    img: "/images/vault.jpg",
+    img: tg16,
   },
   {
     title: "⏳ Hourglass of Her Absence",
@@ -170,7 +173,7 @@ const TortureGallery = () => {
             <img
               src={item.img}
               alt={item.title}
-              className="w-full object-cover h-auto max-h-[300px]"
+              className="w-full object-cover h-auto max-h-[700px]"
             />
             <div className="p-4">
               <h3 className="text-3xl font-bold text-pink-400">{item.title}</h3>
