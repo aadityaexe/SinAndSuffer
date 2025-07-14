@@ -193,7 +193,7 @@ const TortureGallery = () => {
         <div className="text-center mt-12">
           <button
             onClick={() => setShowAll(true)}
-            className="px-6 py-3 bg-red-600 hover:bg-red-700 transition rounded-full text-white font-semibold text-lg"
+            className="px-6 py-3 text-4xl bg-red-600 hover:bg-red-700 transition rounded-full text-white font-semibold text-lg"
           >
             See All Tortures
           </button>
