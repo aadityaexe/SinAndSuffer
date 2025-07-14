@@ -182,8 +182,8 @@ const TortureGallery = () => {
               className="w-full object-cover max-h-[600px]"
             />
             <div className="p-4">
-              <h3 className="text-2xl font-bold text-pink-400">{item.title}</h3>
-              <p className="text-zinc-300 text-lg mt-2">{item.description}</p>
+              <h3 className="text-3xl font-bold text-pink-400">{item.title}</h3>
+              <p className="text-zinc-300 text-3xl mt-2">{item.description}</p>
             </div>
           </div>
         ))}
