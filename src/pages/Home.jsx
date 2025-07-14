@@ -15,9 +15,7 @@ const Home = () => {
       <Hero />
       <ScrollingText />
       <About />
-
       <TortureChart />
-
       <Roadmap />
       <TortureGallery />
       <Faq />

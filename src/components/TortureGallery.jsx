@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
+import tg1 from "../assets/tg1.jpg";
+import tg2 from "../assets/tg2.jpg";
 gsap.registerPlugin(ScrollTrigger);
 
 // 👿 Add as many torture cards as you like
@@ -9,7 +10,7 @@ const tortures = [
   {
     title: "💄 Lust Lashes",
     description: "A kiss that burns into your bones. Soft lips, sharp teeth.",
-    img: "/images/lust.jpg",
+    img: tg1,
   },
   {
     title: "🔥 The Furnace Embrace",
@@ -40,7 +41,7 @@ const tortures = [
   {
     title: "🔗 Shackles of Shame",
     description: "Every time you squirm, the memories tighten.",
-    img: "/images/shackles.jpg",
+    img: tg2,
   },
   {
     title: "🩶 Mirror of Sin",
