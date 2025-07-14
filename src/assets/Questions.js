@@ -1334,4 +1334,680 @@ export const faqs = [
     question: "What if I was just being a man?",
     answer: "Then Hell teaches you how to be human.",
   },
+  {
+    question: "What is lust in its rawest form?",
+    answer: "A fire that doesn’t warm — it consumes.",
+  },
+  {
+    question: "Can lust ever be satisfied?",
+    answer: "No. It always asks for more — and gives less in return.",
+  },
+  {
+    question: "Is lust a feeling or a hunger?",
+    answer: "It’s hunger pretending to be love.",
+  },
+  {
+    question: "Why does lust feel like falling?",
+    answer: "Because it pulls you down — not up.",
+  },
+  {
+    question: "What separates lust from love?",
+    answer: "Time. Lust burns fast; love endures ash.",
+  },
+  {
+    question: "Is lust dangerous?",
+    answer: "Only if you value your sanity.",
+  },
+  {
+    question: "Why do we chase what destroys us?",
+    answer: "Because destruction whispers sweetly in lust's voice.",
+  },
+  {
+    question: "Is lust always physical?",
+    answer: "Not always. Some glances strip you bare without a touch.",
+  },
+  {
+    question: "What fuels lust?",
+    answer: "Desire, denial, and a dash of delusion.",
+  },
+  {
+    question: "Does lust lie?",
+    answer: "It doesn't need to — it intoxicates the truth.",
+  },
+  {
+    question: "Can lust ever become love?",
+    answer: "Rarely. Most fires die before they settle.",
+  },
+  {
+    question: "Is lust sinful?",
+    answer: "Only if you believe in resisting temptation.",
+  },
+  {
+    question: "What does lust want?",
+    answer: "Everything, immediately — and never forever.",
+  },
+  {
+    question: "How does lust speak?",
+    answer: "In silences louder than screams.",
+  },
+  {
+    question: "Is lust patient?",
+    answer: "Never. It’s the first to arrive and the first to burn out.",
+  },
+  {
+    question: "Does lust leave scars?",
+    answer: "Yes — the kind you beg to feel again.",
+  },
+  {
+    question: "Can lust make you blind?",
+    answer: "Only to everything that matters.",
+  },
+  {
+    question: "What does lust fear?",
+    answer: "Commitment, boredom, and morning light.",
+  },
+  {
+    question: "Why does lust return even after pain?",
+    answer: "Because the body remembers what the soul regrets.",
+  },
+  {
+    question: "Does lust have a shape?",
+    answer: "It takes the form of your deepest craving.",
+  },
+  {
+    question: "Why does lust thrive in secrecy?",
+    answer: "Because shadows make desire look divine.",
+  },
+  {
+    question: "Can lust survive in daylight?",
+    answer: "Not often. The sun exposes what fantasy hides.",
+  },
+  {
+    question: "Is lust selfish?",
+    answer: "Always. It craves, but rarely gives.",
+  },
+  {
+    question: "Is lust lonely?",
+    answer: "Ironically, it’s most alive when it's alone.",
+  },
+  {
+    question: "What is the cost of lust?",
+    answer: "Pleasure now, penance later.",
+  },
+  {
+    question: "Is lust a sin or a symptom?",
+    answer: "It’s both — a sin born from a starving soul.",
+  },
+  {
+    question: "Why is lust addictive?",
+    answer: "Because it gives without giving anything real.",
+  },
+  {
+    question: "Can lust break you?",
+    answer: "It only sharpens the cracks already inside.",
+  },
+  {
+    question: "What does lust promise?",
+    answer: "Ecstasy — and delivers emptiness.",
+  },
+  {
+    question: "Where does lust live?",
+    answer: "In the gaze that lingers a second too long.",
+  },
+  {
+    question: "Is lust weakness?",
+    answer: "Only when you call it strength.",
+  },
+  {
+    question: "Can lust be pure?",
+    answer: "Even fire can look clean before it burns skin.",
+  },
+  {
+    question: "What is the aftermath of lust?",
+    answer: "Ash, silence, and a question: 'Was it worth it?'",
+  },
+  {
+    question: "Is lust temporary?",
+    answer: "Yes — but the memory lasts forever.",
+  },
+  {
+    question: "Why is lust romanticized?",
+    answer: "Because it sells better than suffering.",
+  },
+  {
+    question: "Can lust exist without guilt?",
+    answer: "Only in the fantasies of liars.",
+  },
+  {
+    question: "Is lust natural?",
+    answer: "Yes — like wildfires in summer.",
+  },
+  {
+    question: "Does lust need a body?",
+    answer: "Sometimes, imagination is enough.",
+  },
+  {
+    question: "Is lust an illusion?",
+    answer: "Yes — dressed in the skin of desire.",
+  },
+  {
+    question: "Can lust be holy?",
+    answer: "Only in temples built from temptation.",
+  },
+  {
+    question: "Why do people fall for lust?",
+    answer: "Because falling feels like flying — until you land.",
+  },
+  {
+    question: "What does lust destroy first?",
+    answer: "Your ability to tell need from want.",
+  },
+  {
+    question: "How does lust sound?",
+    answer: "Like a whisper you mistake for a promise.",
+  },
+  {
+    question: "Can lust be trusted?",
+    answer: "No. It smiles with poison on its lips.",
+  },
+  {
+    question: "Is lust ever gentle?",
+    answer: "Only long enough to lower your guard.",
+  },
+  {
+    question: "Does lust have limits?",
+    answer: "It only ends when you're empty.",
+  },
+  {
+    question: "Is lust primal?",
+    answer: "Yes. It predates your morals.",
+  },
+  {
+    question: "What awakens lust?",
+    answer: "A glance, a scent, a forbidden thought.",
+  },
+  {
+    question: "Can lust kill?",
+    answer: "Yes — slowly, sweetly, and with your consent.",
+  },
+  {
+    question: "What masks itself as love but vanishes after the climax?",
+    answer: "Lust — the great imitator with no intention to stay.",
+  },
+  {
+    question: "Can lust rewrite memory?",
+    answer: "Yes — it edits regret into desire.",
+  },
+  {
+    question: "Does lust require intimacy?",
+    answer: "No. It often thrives without it.",
+  },
+  {
+    question: "Why does lust feel like power?",
+    answer: "Because it lets you devour without asking.",
+  },
+  {
+    question: "What happens when lust goes unspoken?",
+    answer: "It festers, then explodes — or corrupts from within.",
+  },
+  {
+    question: "Is lust a weapon?",
+    answer: "In the wrong hands, it’s deadlier than envy.",
+  },
+  {
+    question: "Why do forbidden things feel more desirable?",
+    answer: "Because lust feeds on what it’s told to avoid.",
+  },
+  {
+    question: "What does lust silence?",
+    answer: "Your judgment — and sometimes, your soul.",
+  },
+  {
+    question: "Is lust ever loyal?",
+    answer: "Only until it finds something newer.",
+  },
+  {
+    question: "What’s the difference between passion and lust?",
+    answer: "Passion builds. Lust burns.",
+  },
+  {
+    question: "Can lust become obsession?",
+    answer: "It already is — dressed in seduction.",
+  },
+  {
+    question: "What does lust drink?",
+    answer: "Your focus, your morals, your peace.",
+  },
+  {
+    question: "Why does lust turn into shame?",
+    answer: "Because it vanishes when the lights come on.",
+  },
+  {
+    question: "Does lust make you selfish?",
+    answer: "It makes you forget anyone else matters.",
+  },
+  {
+    question: "Can lust be spiritual?",
+    answer: "Only if your gods are made of flesh.",
+  },
+  {
+    question: "What’s the illusion behind lust?",
+    answer: "That it wants *you* — not just your skin.",
+  },
+  {
+    question: "Can lust destroy love?",
+    answer: "Easily. It doesn’t knock — it kicks the door down.",
+  },
+  {
+    question: "What does lust sound like in your head?",
+    answer: "A siren's lullaby laced with screams.",
+  },
+  {
+    question: "Why does lust linger after regret?",
+    answer: "Because you confuse the pain with pleasure.",
+  },
+  {
+    question: "Is lust ever mutual?",
+    answer: "It pretends to be. Often it’s just mirrored craving.",
+  },
+  {
+    question: "Can lust live without attention?",
+    answer: "No. It dies in silence.",
+  },
+  {
+    question: "What does lust fear the most?",
+    answer: "Being known beyond the body.",
+  },
+  {
+    question: "Can lust be kind?",
+    answer: "No. It only mimics affection to get what it wants.",
+  },
+  {
+    question: "Why does lust breed lies?",
+    answer: "Because truth gets in the way of desire.",
+  },
+  {
+    question: "What happens when you feed lust too long?",
+    answer: "It grows teeth.",
+  },
+  {
+    question: "Does lust ever sleep?",
+    answer: "Only to dream darker dreams.",
+  },
+  {
+    question: "Is lust a curse or a gift?",
+    answer: "It’s a gift with a poisoned bow.",
+  },
+  {
+    question: "What’s the anatomy of lust?",
+    answer: "Eyes, breath, touch — and nothing beneath.",
+  },
+  {
+    question: "Can lust see clearly?",
+    answer: "Only until it's had its fill.",
+  },
+  {
+    question: "Is lust more dangerous than hate?",
+    answer: "Yes — because it feels better going down.",
+  },
+  {
+    question: "Can lust control you?",
+    answer: "It whispers — you obey.",
+  },
+  {
+    question: "Why does lust come with guilt?",
+    answer: "Because your soul remembers what your body forgets.",
+  },
+  {
+    question: "Can lust disguise itself as need?",
+    answer: "Yes — and it often does.",
+  },
+  {
+    question: "What’s left when lust is gone?",
+    answer: "A mess where meaning once tried to grow.",
+  },
+  {
+    question: "Why do people regret lust?",
+    answer: "Because it promises everything — and gives nothing real.",
+  },
+  {
+    question: "Is lust rooted in truth?",
+    answer: "It’s rooted in fantasy and watered with denial.",
+  },
+  {
+    question: "Can lust ruin lives?",
+    answer: "Many. And it always asks for more.",
+  },
+  {
+    question: "What do eyes crave in lust?",
+    answer: "What they’re not allowed to touch.",
+  },
+  {
+    question: "Can lust be silent?",
+    answer: "Yes — and still scream.",
+  },
+  {
+    question: "What is lust’s favorite time?",
+    answer: "Midnight, when shame is still asleep.",
+  },
+  {
+    question: "Can lust live in memories?",
+    answer: "Yes — and sometimes never leaves.",
+  },
+  {
+    question: "Is lust a betrayal?",
+    answer: "Sometimes — even of yourself.",
+  },
+  {
+    question: "What does lust burn away?",
+    answer: "Reason, restraint, and often, reality.",
+  },
+  {
+    question: "Why does lust feel powerful?",
+    answer: "Because it makes you forget consequences.",
+  },
+  {
+    question: "What color is lust?",
+    answer: "Deep crimson — like dried blood and lipstick.",
+  },
+  {
+    question: "Does lust speak the truth?",
+    answer: "Only the truth it wants you to hear.",
+  },
+  {
+    question: "What does lust teach?",
+    answer: "How to crave what doesn’t love you back.",
+  },
+  {
+    question: "Can lust be controlled?",
+    answer: "Rarely. It’s the spark that disobeys the hand.",
+  },
+  {
+    question: "What makes lust grow stronger?",
+    answer: "Denial, distance, and danger.",
+  },
+  {
+    question: "What does lust do to the heart?",
+    answer: "Uses it like a drum — then discards it.",
+  },
+  {
+    question: "Why is lust so easy to justify?",
+    answer: "Because the body is louder than the conscience.",
+  },
+  {
+    question: "Can lust become routine?",
+    answer: "Yes — and even routine can ruin you.",
+  },
+  {
+    question: "Does lust love you back?",
+    answer: "No. It only mirrors your madness.",
+  },
+  {
+    question: "Why does lust strike at night?",
+    answer: "Because the dark doesn’t judge your cravings.",
+  },
+  {
+    question: "Can lust be beautiful?",
+    answer: "Only until it’s done using you.",
+  },
+  {
+    question: "What happens when lust fades?",
+    answer: "You see the person — and wish you hadn’t.",
+  },
+  {
+    question: "Can lust become a habit?",
+    answer: "Yes — especially when it rewards recklessness.",
+  },
+  {
+    question: "Why does lust taste like freedom?",
+    answer: "Because you confuse escape with liberation.",
+  },
+  {
+    question: "What do we sacrifice for lust?",
+    answer: "Clarity, dignity, sometimes everything.",
+  },
+  {
+    question: "Can lust be hidden?",
+    answer: "Only briefly. It leaks through your smile.",
+  },
+  {
+    question: "Does lust punish or reward?",
+    answer: "Both — sometimes in the same breath.",
+  },
+  {
+    question: "Why does lust confuse the soul?",
+    answer: "Because it speaks in the same tone as longing.",
+  },
+  {
+    question: "Is lust ever soft?",
+    answer: "Only until it gets what it came for.",
+  },
+  {
+    question: "Can you respect what you lust for?",
+    answer: "Only if lust isn't all you see.",
+  },
+  {
+    question: "Does lust get bored?",
+    answer: "Quickly — it thrives on the thrill of the forbidden.",
+  },
+  {
+    question: "Is lust faster than love?",
+    answer: "Like lightning compared to a sunrise.",
+  },
+  {
+    question: "Why does lust make liars?",
+    answer: "Because the truth ruins the fantasy.",
+  },
+  {
+    question: "What does lust teach the weak?",
+    answer: "That need can feel like power — for a moment.",
+  },
+  {
+    question: "Can lust be art?",
+    answer: "Only if pain is part of your masterpiece.",
+  },
+  {
+    question: "What if lust is never acted on?",
+    answer: "Then it haunts you instead.",
+  },
+  {
+    question: "Can lust burn through shame?",
+    answer: "It feeds on shame like fuel.",
+  },
+  {
+    question: "Why is lust often mistaken for fate?",
+    answer: "Because it crashes into you without warning.",
+  },
+  {
+    question: "What fuels lust's fire?",
+    answer: "Denial, secrecy, and a taste of the impossible.",
+  },
+  {
+    question: "Does lust ever ask permission?",
+    answer: "No. It takes — with your smile as consent.",
+  },
+  {
+    question: "Can lust feel like love at first?",
+    answer: "Always. That’s how it fools you.",
+  },
+  {
+    question: "Why does lust feel urgent?",
+    answer: "Because it believes in now — never forever.",
+  },
+  {
+    question: "What is the soul’s price for lust?",
+    answer: "Memory. Some things you never un-feel.",
+  },
+  {
+    question: "Can lust ever be gentle?",
+    answer: "Only when it wants to be cruel later.",
+  },
+  {
+    question: "Does lust fear light?",
+    answer: "Yes — truth dims its glow.",
+  },
+  {
+    question: "What happens when lust is denied?",
+    answer: "It doesn’t die — it festers.",
+  },
+  {
+    question: "Is lust louder than guilt?",
+    answer: "Only until the silence hits afterward.",
+  },
+  {
+    question: "Can lust create monsters?",
+    answer: "Yes — and they often look like lovers.",
+  },
+  {
+    question: "Why is lust silent in crowds?",
+    answer: "Because it whispers just to you.",
+  },
+  {
+    question: "Can lust twist the truth?",
+    answer: "Lust doesn’t twist — it reinvents.",
+  },
+  {
+    question: "What emotion follows lust?",
+    answer: "Regret, loneliness, or another craving.",
+  },
+  {
+    question: "Can lust lead to obsession?",
+    answer: "Yes — it often opens that door.",
+  },
+  {
+    question: "Does lust fear exposure?",
+    answer: "It thrives in secrecy, not in spotlight.",
+  },
+  {
+    question: "What does lust destroy first?",
+    answer: "Your ability to listen to reason.",
+  },
+  {
+    question: "Why does lust repeat itself?",
+    answer: "Because it forgets it ever hurt you.",
+  },
+  {
+    question: "Can lust become ritual?",
+    answer: "Yes — a sacred sin rehearsed in silence.",
+  },
+  {
+    question: "What’s the poison in lust?",
+    answer: "Pleasure laced with abandonment.",
+  },
+  {
+    question: "Can lust exist in absence?",
+    answer: "Absence often feeds it best.",
+  },
+  {
+    question: "Does lust ever say goodbye?",
+    answer: "Never — it lingers in your skin.",
+  },
+  {
+    question: "Why is lust a sin in stories?",
+    answer: "Because it writes tragedies in blood and heat.",
+  },
+  {
+    question: "Can lust sound like destiny?",
+    answer: "Only when you’re lonely enough to listen.",
+  },
+  {
+    question: "Is lust ever silent?",
+    answer: "Only while plotting its next temptation.",
+  },
+  {
+    question: "Does lust make us human?",
+    answer: "No — it reminds us how animal we still are.",
+  },
+  {
+    question: "What grows in lust's shadow?",
+    answer: "Jealousy, confusion, and ache.",
+  },
+  {
+    question: "Can lust take your name?",
+    answer: "It takes everything — names included.",
+  },
+  {
+    question: "Why does lust survive heartbreak?",
+    answer: "Because it doesn't need love to feed.",
+  },
+  {
+    question: "Can lust look like kindness?",
+    answer: "Sometimes — before it strikes.",
+  },
+  {
+    question: "Is lust just a game?",
+    answer: "Yes — but the rules are written in blood.",
+  },
+  {
+    question: "What makes lust beautiful?",
+    answer: "The lie that it might mean something.",
+  },
+  {
+    question: "Does lust ever age?",
+    answer: "It just changes faces.",
+  },
+  {
+    question: "Can lust bloom in the mind?",
+    answer: "Yes — and live there forever.",
+  },
+  {
+    question: "What does lust wear?",
+    answer: "A smile that smells like danger.",
+  },
+  {
+    question: "Is lust louder when unspoken?",
+    answer: "Yes — silence can scream.",
+  },
+  {
+    question: "Does lust believe in tomorrow?",
+    answer: "No — it’s always now or never.",
+  },
+  {
+    question: "Why does lust feel like drowning?",
+    answer: "Because you stop breathing just to feel more.",
+  },
+  {
+    question: "What is lust's favorite lie?",
+    answer: "This time will be different.",
+  },
+  {
+    question: "Is lust a mirror?",
+    answer: "Yes — it shows what you deny.",
+  },
+  {
+    question: "What does lust echo?",
+    answer: "The ache beneath the appetite.",
+  },
+  {
+    question: "Can lust haunt places?",
+    answer: "Rooms remember who undressed your soul.",
+  },
+  {
+    question: "Why does lust break silence?",
+    answer: "Because some whispers are too loud to hold in.",
+  },
+  {
+    question: "What lives between desire and destruction?",
+    answer: "Lust — the bridge and the fire.",
+  },
+  {
+    question: "Can lust feel holy?",
+    answer: "Only in temples made of skin.",
+  },
+  {
+    question: "What does lust take with it?",
+    answer: "Pieces of you you didn’t know could be taken.",
+  },
+  {
+    question: "Does lust wear a crown or a collar?",
+    answer: "Both — it rules and obeys at once.",
+  },
+  {
+    question: "Why does lust feel primal?",
+    answer: "Because it predates language and consequence.",
+  },
+  {
+    question: "What is lust’s final form?",
+    answer: "Hunger with no end.",
+  },
 ];
