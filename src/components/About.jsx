@@ -47,6 +47,7 @@ const About = () => {
   return (
     <section
       ref={sectionRef}
+      id="about"
       className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-gray-100 px-6 py-16 md:px-12 lg:px-24 xl:px-36"
     >
       <div className="max-w-7xl w-full flex flex-col md:flex-row gap-10 items-center justify-between">

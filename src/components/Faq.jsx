@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import { gsap } from "gsap";
 
@@ -68,7 +68,7 @@ const Faq = () => {
   };
 
   return (
-    <section className="bg-white px-6 md:px-24 py-20 text-black">
+    <section id="faq" className="bg-white px-6 md:px-24 py-20 text-black">
       <h2 className="text-4xl md:text-5xl font-bold text-center mb-10">
         Frequently Asked Questions
       </h2>
@@ -108,7 +108,7 @@ const Faq = () => {
             <div className="text-center pt-6">
               <button
                 onClick={handleShowMore}
-                className="px-6 py-3 bg-black text-white rounded-xl font-semibold hover:bg-gray-800 transition-all"
+                className="px-6 py-3 bg-black text-white text-3xl rounded-xl  hover:bg-gray-800 transition-all"
               >
                 See More
               </button>

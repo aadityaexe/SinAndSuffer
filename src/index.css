@@ -144,3 +144,7 @@ textarea {
 ::-webkit-scrollbar-thumb:hover {
   background: #a50636;
 }
+
+html {
+  scroll-behavior: smooth;
+}

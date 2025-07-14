@@ -20,7 +20,10 @@ const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "#845EC2"];
 
 const Tokenomics = () => {
   return (
-    <section className="py-16 px-6 sm:px-12 lg:px-24 xl:px-48 bg-gray-900 text-white">
+    <section
+      id="tokenomics"
+      className="py-16 px-6 sm:px-12 lg:px-24 xl:px-48 bg-gray-900 text-white"
+    >
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold mb-4">Tokenomics</h2>
         <p className="text-gray-300 max-w-2xl text-3xl mx-auto">
