@@ -1,30 +1,32 @@
 import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import tg1 from "../assets/tg1.jpg";
-import tg2 from "../assets/tg2.jpg";
-import tg3 from "../assets/tg3.jpg"; // Adjust the path as necessary
-import tg4 from "../assets/tg4.jpg"; // Adjust the path as necessary
-import tg5 from "../assets/tg5.jpg"; // Adjust the path as necessary
-import tg6 from "../assets/tg6.jpg"; // Adjust the path as necessary
-import tg7 from "../assets/tg7.jpg"; // Adjust the path as necessary
-import tg8 from "../assets/tg8.png"; // Adjust the path as necessary
-import tg9 from "../assets/tg9.jpg"; // Adjust the path as necessary
-import tg10 from "../assets/tg10.jpg"; // Adjust the path as necessary
-import tg11 from "../assets/tg11.jpg"; // Adjust the path as necessary
-import tg12 from "../assets/tg12.jpg"; // Adjust the path as necessary
-import tg13 from "../assets/tg13.jpg";
-import tg14 from "../assets/tg14.jpg";
-import tg15 from "../assets/tg15.jpg";
-import tg16 from "../assets/tg16.jpg";
-import tg17 from "../assets/tg17.jpg";
-import tg18 from "../assets/tg18.jpg";
-import tg19 from "../assets/tg19.jpg";
-import tg20 from "../assets/tg20.jpg";
-import tg21 from "../assets/tg21.jpg";
+import {
+  tg1,
+  tg2,
+  tg3,
+  tg4,
+  tg5,
+  tg6,
+  tg7,
+  tg8,
+  tg9,
+  tg10,
+  tg11,
+  tg12,
+  tg13,
+  tg14,
+  tg15,
+  tg16,
+  tg17,
+  tg18,
+  tg19,
+  tg20,
+  tg21,
+} from "../assets/tortureImages";
+
 gsap.registerPlugin(ScrollTrigger);
 
-// 👿 Add as many torture cards as you like
 const tortures = [
   {
     title: "💄 Lust Lashes",
@@ -142,55 +144,59 @@ const TortureGallery = () => {
   const visibleTortures = showAll ? tortures : tortures.slice(0, 6);
 
   useEffect(() => {
-    cardsRef.current.forEach((card, index) => {
-      if (!card) return;
-      gsap.from(card, {
-        scrollTrigger: {
-          trigger: card,
-          start: "top 90%",
-          toggleActions: "play none none none",
-        },
+    gsap.fromTo(
+      cardsRef.current,
+      {
         opacity: 0,
         y: 50,
-        scale: 0.9,
-        duration: 1,
-        delay: Math.random() * 0.3,
+        scale: 0.95,
+      },
+      {
+        opacity: 1,
+        y: 0,
+        scale: 1,
+        duration: 0.8,
         ease: "power3.out",
-      });
-    });
-  }, [showAll]); // Animate on toggle
+        stagger: 0.15,
+        scrollTrigger: {
+          trigger: "#torture-gallery",
+          start: "top 80%",
+        },
+      }
+    );
+  }, [showAll]);
 
   return (
     <section id="torture-gallery" className="bg-black py-16 px-4 text-white">
-      <h2 className="text-4xl font-bold text-center text-red-500 mb-12">
+      <h2 className="text-4xl md:text-5xl font-bold text-center text-red-500 mb-12">
         Tortures That Turn You On… Then Tear You Apart
       </h2>
 
-      <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 max-w-6xl mx-auto space-y-6">
+      <div className="columns-1 sm:columns-2 lg:columns-3 2xl:columns-4 gap-6 max-w-7xl mx-auto px-4 space-y-6">
         {visibleTortures.map((item, index) => (
           <div
             key={index}
             ref={(el) => (cardsRef.current[index] = el)}
-            className="break-inside-avoid bg-zinc-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.03] transition-transform duration-300"
+            className="break-inside-avoid bg-zinc-900 rounded-2xl overflow-hidden shadow-lg transform hover:scale-[1.03] transition-transform duration-300"
           >
             <img
               src={item.img}
               alt={item.title}
-              className="w-full object-cover h-auto max-h-[700px]"
+              className="w-full object-cover max-h-[600px]"
             />
             <div className="p-4">
-              <h3 className="text-3xl font-bold text-pink-400">{item.title}</h3>
-              <p className="text-zinc-300 text-2xl mt-2">{item.description}</p>
+              <h3 className="text-2xl font-bold text-pink-400">{item.title}</h3>
+              <p className="text-zinc-300 text-lg mt-2">{item.description}</p>
             </div>
           </div>
         ))}
       </div>
 
       {!showAll && (
-        <div className="text-center mt-10">
+        <div className="text-center mt-12">
           <button
             onClick={() => setShowAll(true)}
-            className="px-6 py-3 bg-red-600 hover:bg-red-700 transition rounded-full text-white font-semibold"
+            className="px-6 py-3 bg-red-600 hover:bg-red-700 transition rounded-full text-white font-semibold text-lg"
           >
             See All Tortures
           </button>
