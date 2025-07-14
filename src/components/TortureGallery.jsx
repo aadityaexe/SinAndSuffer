@@ -12,7 +12,7 @@ import tg8 from "../assets/tg8.png"; // Adjust the path as necessary
 import tg9 from "../assets/tg9.jpg"; // Adjust the path as necessary
 import tg10 from "../assets/tg10.jpg"; // Adjust the path as necessary
 import tg11 from "../assets/tg11.jpg"; // Adjust the path as necessary
-import tg12 from "../assets/tg12.jpg"; // Adjust the path as necessary
+import tg12 from "../assets/tg12.jpg";
 import tg13 from "../assets/tg13.jpg";
 import tg14 from "../assets/tg14.jpg";
 import tg15 from "../assets/tg15.jpg";
