@@ -12,16 +12,16 @@ const Footer = () => {
           <h2 className="text-4xl font-extrabold tracking-wider text-red-500">
             Sin & Suffer
           </h2>
-          <p className="text-sm text-gray-300 italic">
+          <p className="text-3xl text-gray-300 italic">
             Where every goodbye burns and every hello hurts.
           </p>
-          <p className="text-xs text-gray-400">
+          <p className="text-3xl text-gray-400">
             &copy; {new Date().getFullYear()} Tortured Souls Inc. All rights
             reserved.
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-center md:justify-end gap-6 text-lg font-medium">
+        <div className="flex flex-wrap justify-center md:justify-end gap-6 text-2xl font-medium">
           <a href="#about" className="hover:text-red-400 transition">
             About
           </a>
