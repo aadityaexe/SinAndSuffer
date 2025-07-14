@@ -19,6 +19,9 @@ import tg15 from "../assets/tg15.jpg";
 import tg16 from "../assets/tg16.jpg";
 import tg17 from "../assets/tg17.jpg";
 import tg18 from "../assets/tg18.jpg";
+import tg19 from "../assets/tg19.jpg";
+import tg20 from "../assets/tg20.jpg";
+import tg21 from "../assets/tg21.jpg";
 gsap.registerPlugin(ScrollTrigger);
 
 // 👿 Add as many torture cards as you like
@@ -37,7 +40,7 @@ const tortures = [
     title: "🖤 The Craving Chair",
     description:
       "You sit, you ache, you remember everything you ever wanted. But never get it.",
-    img: "/images/craving.jpg",
+    img: tg20,
   },
   {
     title: "🩸 Whispers of the Wicked",
@@ -122,13 +125,13 @@ const tortures = [
   {
     title: "💔 The Heartcrush Waltz",
     description: "One dance. One break. Again and again.",
-    img: "/images/waltz.jpg",
+    img: tg21,
   },
   {
     title: "👁️ The Hunter’s Curse",
     description:
       "You watched her. Followed her. Whispered filth behind her back. Now the eyes never blink, and the screams never stop.",
-    img: "/images/hunter.jpg",
+    img: tg19,
   },
 ];
 
