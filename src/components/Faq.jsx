@@ -1339,7 +1339,6 @@ const faqs = [
     answer: "Then Hell teaches you how to be human.",
   },
 ];
-
 const Faq = () => {
   const [expanded, setExpanded] = useState([]);
   const [visibleCount, setVisibleCount] = useState(3);
@@ -1375,15 +1374,35 @@ const Faq = () => {
   };
 
   const handleShowMore = () => {
-    setVisibleCount((prev) => Math.min(prev + 3, filteredFaqs.length));
+    setVisibleCount((prev) => Math.min(prev + 3, faqs.length));
   };
 
-  const filteredFaqs = faqs.filter((faq) =>
-    faq.question.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const searchWords = searchTerm.toLowerCase().split(" ").filter(Boolean);
+
+  const filteredFaqs =
+    searchTerm === ""
+      ? faqs
+      : faqs
+          .map((faq) => {
+            const questionText = faq.question.toLowerCase();
+            const answerText = faq.answer.toLowerCase();
+
+            let matchCount = 0;
+            for (let word of searchWords) {
+              if (questionText.includes(word)) matchCount++;
+              if (answerText.includes(word)) matchCount++;
+            }
+
+            return { ...faq, matchCount };
+          })
+          .filter((faq) => faq.matchCount > 0)
+          .sort((a, b) => b.matchCount - a.matchCount);
+
+  const visibleFaqs =
+    searchTerm === "" ? filteredFaqs.slice(0, visibleCount) : filteredFaqs;
 
   return (
-    <section id="faq" className="bg-white px-6 md:px-24 py-20 text-black">
+    <section id="faq" className="px-6 md:px-24 py-20 text-black">
       <h2 className="text-4xl md:text-5xl font-bold text-center mb-10">
         Frequently Asked Questions
       </h2>
@@ -1396,15 +1415,15 @@ const Faq = () => {
           value={searchTerm}
           onChange={(e) => {
             setSearchTerm(e.target.value);
-            setVisibleCount(3); // Reset visible count on search
-            setExpanded([]); // Close all expanded answers
+            setVisibleCount(3); // Reset on new search
+            setExpanded([]); // Collapse all
           }}
         />
       </div>
 
-      <section className="flex items-center justify-center px-4 md:px-10 py-10 bg-white text-black">
+      <section className="flex items-center justify-center px-4 md:px-10 py-10  text-black">
         <div className="max-w-3xl w-full space-y-6 text-center m-6">
-          {filteredFaqs.slice(0, visibleCount).map((faq, index) => (
+          {visibleFaqs.map((faq, index) => (
             <div
               key={index}
               className="border border-gray-300 rounded-xl p-5 shadow-md transition-all overflow-hidden text-left"
@@ -1434,7 +1453,8 @@ const Faq = () => {
             </div>
           ))}
 
-          {visibleCount < filteredFaqs.length && (
+          {/* See More only when not searching and more are available */}
+          {searchTerm === "" && visibleCount < faqs.length && (
             <div className="text-center pt-6">
               <button
                 onClick={handleShowMore}
