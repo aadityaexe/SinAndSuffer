@@ -10,9 +10,11 @@ import {
 
 const data = [
   { name: "Soul Burn", value: 30 },
-  { name: "Lust & Seduction", value: 25 },
+
   { name: "Eternal Regret", value: 15 },
+
   { name: "Mind Torture", value: 20 },
+  { name: "Lust & Seduction", value: 25 },
   { name: "Demonic Games", value: 10 },
 ];
 
