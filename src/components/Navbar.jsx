@@ -6,7 +6,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="bg-black border-b-2 border-pink-600 shadow-md w-full z-50 ">
+    <nav className="bg-black border-b-2 fixed border-pink-600 shadow-md w-full z-50 ">
       <div className="max-w-[1400px] w-full mx-auto px-8 xl:px-20 py-5 flex justify-between items-center ml-7 ">
         {/* Logo */}
         <h1 className="text-pink-500 font-bold text-4xl lg:text-5xl">
