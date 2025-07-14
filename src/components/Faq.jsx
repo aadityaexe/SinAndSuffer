@@ -1072,6 +1072,272 @@ const faqs = [
     question: "What if I enjoyed the betrayal more than the love?",
     answer: "Then you're finally home.",
   },
+  {
+    question: "Why did I follow her home?",
+    answer:
+      "Because you mistook fear for flirtation. Now you walk in endless circles, chased by what you thought was harmless.",
+  },
+  {
+    question: "Why did I stare when she said stop?",
+    answer:
+      "Because your gaze was a weapon. Now the walls of your chamber watch you—without blinking.",
+  },
+  {
+    question: "Was it wrong to call out to her?",
+    answer: "Your voice clawed at her soul. Now silence is your scream.",
+  },
+  {
+    question: "Why can’t I close my eyes?",
+    answer:
+      "Because now she’s the one watching. And her glare cuts deeper than yours ever did.",
+  },
+  {
+    question: "What if I just complimented her body?",
+    answer: "Then your tongue is now hung on hooks, each word dripping shame.",
+  },
+  {
+    question: "Why did I follow her online?",
+    answer:
+      "Because obsession is cowardice wrapped in code. Now you're haunted by every unread message.",
+  },
+  {
+    question: "She didn’t say no—did she?",
+    answer: "No answer is not consent. But Hell answered for her.",
+  },
+  {
+    question: "Why do mirrors whisper back?",
+    answer:
+      "Because you made her reflection a prison. Now yours is your warden.",
+  },
+  {
+    question: "What if I just touched her arm?",
+    answer: "Now arms reach for you in the dark. They do not ask permission.",
+  },
+  {
+    question: "Why is my bed made of thorns?",
+    answer:
+      "Because you thought you were entitled to comfort while she bled silently.",
+  },
+  {
+    question: "What if I stared at her lips?",
+    answer: "Now lips surround you. None speak. All bite.",
+  },
+  {
+    question: "Why do I hear screams when I breathe?",
+    answer: "Because every breath was once taken at her expense.",
+  },
+  {
+    question: "Is lust really that wrong?",
+    answer: "Lust without respect becomes a leash. Welcome to the kennel.",
+  },
+  {
+    question: "What happens to those who stare too long?",
+    answer:
+      "Their eyes are sewn open—forever replaying what should have never been watched.",
+  },
+  {
+    question: "Was calling her a tease a sin?",
+    answer:
+      "It was a curse disguised as flattery. Now your name is a hiss in the shadows.",
+  },
+  {
+    question: "I didn’t touch her. Why am I here?",
+    answer:
+      "Intent drips louder in Hell than action. Your hunger brought you here.",
+  },
+  {
+    question: "Why does she laugh when I beg?",
+    answer:
+      "Because you mistook her fear for foreplay. Now she returns the favor—sweetly.",
+  },
+  {
+    question: "Why is everything here so exposed?",
+    answer:
+      "Because you stripped others with your words. Now your soul stands bare.",
+  },
+  {
+    question: "What happens to catcallers?",
+    answer:
+      "Their mouths are sewn with burning thread. But the echo still escapes.",
+  },
+  {
+    question: "Why did I keep messaging her?",
+    answer:
+      "Because you confused persistence with romance. Now your inbox is a pit that screams back.",
+  },
+  {
+    question: "What if I laughed when she said no?",
+    answer: "Now laughter follows you. Mocking. Endless. Hollow.",
+  },
+  {
+    question: "Why is my tongue gone?",
+    answer:
+      "Because your words were daggers. Now silence wraps your throat like justice.",
+  },
+  {
+    question: "Why does the fire lick my spine?",
+    answer: "Because you pressed too close. Now heat is your only companion.",
+  },
+  {
+    question: "What if I filmed her without asking?",
+    answer:
+      "Now your every moment is projected on the walls. Every watcher wears your face.",
+  },
+  {
+    question: "Why can’t I stop shaking?",
+    answer:
+      "Because the fear you gave now lives inside you. It dances beautifully.",
+  },
+  {
+    question: "What if I made comments about her clothes?",
+    answer:
+      "You thought fabric was an invitation. Now your skin is the showpiece.",
+  },
+  {
+    question: "Why does the air taste like guilt?",
+    answer: "Because it's exhaled by all the women you made uncomfortable.",
+  },
+  {
+    question: "Why do they keep whispering her name?",
+    answer:
+      "Because her silence was louder than your screams. Now it echoes back forever.",
+  },
+  {
+    question: "What happens to men who treat women like prizes?",
+    answer: "They become trophies—mounted, motionless, forgotten.",
+  },
+  {
+    question: "Why is everything watching me?",
+    answer: "Because you made her feel that way. Now it’s your turn.",
+  },
+  {
+    question: "Why do I bleed when I compliment someone?",
+    answer:
+      "Because your compliments were barbed. Hell remembers tone better than you do.",
+  },
+  {
+    question: "What if I made her uncomfortable by accident?",
+    answer: "Hell is full of 'accidents' wearing cologne and excuses.",
+  },
+  {
+    question: "Why do I feel like prey?",
+    answer:
+      "Because you were once the predator. Welcome to the other side of the gaze.",
+  },
+  {
+    question: "Why do hands crawl up my legs?",
+    answer: "Because you once made her legs a roadmap without consent.",
+  },
+  {
+    question: "What if I watched her sleep?",
+    answer: "Now sleep watches you. And it has teeth.",
+  },
+  {
+    question: "Why do chains wrap around my words?",
+    answer: "Because your voice was once a cage for others.",
+  },
+  {
+    question: "Why are my fingers on fire?",
+    answer: "Because they touched without being invited.",
+  },
+  {
+    question: "Was flirting a sin?",
+    answer: "Only when it wasn’t mutual. Now your charm is a curse.",
+  },
+  {
+    question: "What if I objectified her as a joke?",
+    answer: "Hell doesn’t laugh with you. Only at you.",
+  },
+  {
+    question: "Why can’t I look away?",
+    answer:
+      "Because now she’s the one on display. And you’re the one being judged.",
+  },
+  {
+    question: "Why do the walls whisper ‘no’?",
+    answer:
+      "Because you never listened to it before. Now it’s all you’ll ever hear.",
+  },
+  {
+    question: "What happens to men who grope in crowds?",
+    answer:
+      "They spend eternity in a crowd of claws and gasps—forever touched, never wanted.",
+  },
+  {
+    question: "Why does my reflection cry?",
+    answer: "Because it’s finally seeing what you were.",
+  },
+  {
+    question: "Why are my hands bound?",
+    answer: "Because they reached where they didn’t belong.",
+  },
+  {
+    question: "What if I said she was asking for it?",
+    answer: "Now you are asking for it. And Hell answers… creatively.",
+  },
+  {
+    question: "Why do shadows whisper 'monster'?",
+    answer: "Because the shape fits.",
+  },
+  {
+    question: "What if I laughed at her fear?",
+    answer: "Now laughter is your torment. Hers.",
+  },
+  {
+    question: "Why am I on trial?",
+    answer:
+      "Because you judged her with your eyes and hands. Now judgment sees you clearly.",
+  },
+  {
+    question: "Why does the fire crawl up my thighs?",
+    answer: "Because your gaze once did the same. Now the burn stays.",
+  },
+  {
+    question: "Why is my name erased?",
+    answer: "Because you only ever used hers as a conquest.",
+  },
+  {
+    question: "What if I forced her to smile?",
+    answer: "Now you smile too. With broken teeth and stitched lips.",
+  },
+  {
+    question: "Why do I smell perfume in the dark?",
+    answer: "Because desire turned cruel, and her scent became your curse.",
+  },
+  {
+    question: "What happens to men who leer?",
+    answer: "They are leered at in return—by the hungering dark.",
+  },
+  {
+    question: "What if I touched her without asking?",
+    answer: "Then every touch you receive now is barbed wire and regret.",
+  },
+  {
+    question: "Why does her name burn?",
+    answer: "Because guilt brands deeper than fire ever could.",
+  },
+  {
+    question: "Why do I relive it every night?",
+    answer: "Because your memory is her witness—and Hell is very thorough.",
+  },
+  {
+    question: "What happens to men who confuse control with care?",
+    answer:
+      "They lose both. And serve forever beneath the throne they tried to sit on.",
+  },
+  {
+    question: "Why do I feel hands I can’t see?",
+    answer:
+      "Because that’s what you gave her—ghost touches that never stopped haunting.",
+  },
+  {
+    question: "Why do my compliments scream now?",
+    answer: "Because they were never about her. Only about you.",
+  },
+  {
+    question: "What if I was just being a man?",
+    answer: "Then Hell teaches you how to be human.",
+  },
 ];
 
 const Faq = () => {
