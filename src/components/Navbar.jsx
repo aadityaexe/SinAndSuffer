@@ -46,10 +46,10 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="#contact"
+              href="#torture-gallery"
               className="text-pink-100 hover:text-pink-500 transition duration-300 relative group"
             >
-              Contact
+              Gallery of Pain
               <span className="block h-[2px] w-0 group-hover:w-full bg-pink-600 transition-all duration-300 absolute bottom-[-4px] left-0"></span>
             </a>
           </li>
@@ -94,10 +94,10 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="#contact"
+                href="#torture-gallery"
                 className="text-pink-100 hover:text-pink-400 transition"
               >
-                Contact
+                Gallery of Pain
               </a>
             </li>
           </ul>

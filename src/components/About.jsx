@@ -48,7 +48,7 @@ const About = () => {
     <section
       ref={sectionRef}
       id="about"
-      className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-gray-100 px-6 py-16 md:px-12 lg:px-24 xl:px-36"
+      className="flex flex-col md:flex-row items-center justify-center min-h-screen  px-6 py-16 md:px-12 lg:px-24 xl:px-36"
     >
       <div className="max-w-7xl w-full flex flex-col md:flex-row gap-10 items-center justify-between">
         {/* Image */}
@@ -63,7 +63,7 @@ const About = () => {
         {/* Text */}
         <div
           ref={textRef}
-          className="w-full md:w-1/2 bg-white rounded-2xl p-8 md:p-10 shadow-2xl"
+          className="w-full md:w-1/2  rounded-2xl p-8 md:p-10 shadow-2xl"
         >
           <h2 className="text-5xl font-extrabold text-gray-800 mb-6">
             What is Hell, Really?

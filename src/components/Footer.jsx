@@ -4,11 +4,11 @@ import footerBg from "../assets/footerBg.jpg"; // Adjust path if needed
 const Footer = () => {
   return (
     <footer
-      className="bg-center bg-cover text-white py-10 px-6 h-56"
+      className="bg-center bg-cover text-white py-12 px-6 h-[400px]"
       style={{ backgroundImage: `url(${footerBg})` }}
     >
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-        <div className="text-center md:text-left space-y-2">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 h-full">
+        <div className="text-center md:text-left space-y-3">
           <h2 className="text-4xl font-extrabold tracking-wider text-red-500">
             Sin & Suffer
           </h2>
@@ -31,8 +31,8 @@ const Footer = () => {
           <a href="#torture-stats" className="hover:text-red-400 transition">
             Tortures
           </a>
-          <a href="#contact" className="hover:text-red-400 transition">
-            Contact
+          <a href="#torture-gallery" className="hover:text-red-400 transition">
+            Gallery of Pain
           </a>
         </div>
       </div>

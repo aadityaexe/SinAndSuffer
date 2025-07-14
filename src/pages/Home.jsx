@@ -7,7 +7,7 @@ import ScrollingText from "../components/ScrollingText.jsx";
 import Footer from "../components/Footer.jsx";
 import Roadmap from "../components/Roadmap.jsx";
 import TortureChart from "../components/TortureChart.jsx";
-
+import TortureGallery from "../components/TortureGallery.jsx";
 const Home = () => {
   return (
     <div>
@@ -15,8 +15,11 @@ const Home = () => {
       <Hero />
       <ScrollingText />
       <About />
+
       <TortureChart />
+
       <Roadmap />
+      <TortureGallery />
       <Faq />
       <Footer />
     </div>
