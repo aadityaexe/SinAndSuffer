@@ -66,14 +66,27 @@ const About = () => {
           className="w-full md:w-1/2 bg-white rounded-2xl p-8 md:p-10 shadow-2xl"
         >
           <h2 className="text-5xl font-extrabold text-gray-800 mb-6">
-            About Us
+            What is Hell, Really?
           </h2>
           <p className="text-3xl leading-relaxed text-gray-700">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-            ultrices nulla eu dignissim convallis. Suspendisse nec turpis at
-            odio finibus porta. Sed ut perspiciatis unde omnis iste natus error
-            sit voluptatem accusantium doloremque laudantium.
+            Forget what the priests told you... Hell isn’t punishment. It’s
+            pleasure turned poison. Desire without limits. Lust without love.
+            Pain wrapped in velvet chains.
           </p>
+          <section>
+            <h4 className="text-xl font-extrabold text-gray-800 mb-6">
+              Hell is Hot for a Reason
+            </h4>
+            <p className="text-3xl leading-relaxed text-gray-700">
+              Here, we don’t burn because we’re bad. <br />
+              We burn because we begged for more.
+              <br />
+              Every pleasure you chased now owns you.
+              <br />
+              Every touch you craved now claws back.
+              <br />
+            </p>
+          </section>
         </div>
       </div>
     </section>
