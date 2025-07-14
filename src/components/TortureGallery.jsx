@@ -3,6 +3,19 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import tg1 from "../assets/tg1.jpg";
 import tg2 from "../assets/tg2.jpg";
+import tg3 from "../assets/tg3.jpg"; // Adjust the path as necessary
+import tg4 from "../assets/tg4.jpg"; // Adjust the path as necessary
+import tg5 from "../assets/tg5.jpg"; // Adjust the path as necessary
+import tg6 from "../assets/tg6.jpg"; // Adjust the path as necessary
+import tg7 from "../assets/tg7.jpg"; // Adjust the path as necessary
+import tg8 from "../assets/tg8.png"; // Adjust the path as necessary
+import tg9 from "../assets/tg9.jpg"; // Adjust the path as necessary
+import tg10 from "../assets/tg10.jpg"; // Adjust the path as necessary
+import tg11 from "../assets/tg11.jpg"; // Adjust the path as necessary
+import tg12 from "../assets/tg12.jpg"; // Adjust the path as necessary
+import tg13 from "../assets/tg13.jpg";
+import tg14 from "../assets/tg14.jpg";
+import tg15 from "../assets/tg15.jpg";
 gsap.registerPlugin(ScrollTrigger);
 
 // 👿 Add as many torture cards as you like
@@ -15,7 +28,7 @@ const tortures = [
   {
     title: "🔥 The Furnace Embrace",
     description: "Arms that hold too tight, warmth that melts your will.",
-    img: "/images/furnace.jpg",
+    img: tg13,
   },
   {
     title: "🖤 The Craving Chair",
@@ -26,12 +39,12 @@ const tortures = [
   {
     title: "🩸 Whispers of the Wicked",
     description: "Words so sweet they rot your sanity.",
-    img: "/images/whispers.jpg",
+    img: tg11,
   },
   {
     title: "👠 Heels of Regret",
     description: "You chased her, now she walks all over your soul.",
-    img: "/images/heels.jpg",
+    img: tg15,
   },
   {
     title: "🕷 Web of Whispers",
@@ -46,22 +59,22 @@ const tortures = [
   {
     title: "🩶 Mirror of Sin",
     description: "See yourself as they saw you — and scream.",
-    img: "/images/mirror.jpg",
+    img: tg6,
   },
   {
     title: "🎭 The Liar's Mask",
     description: "Smile all you want. It’s stitched on now.",
-    img: "/images/mask.jpg",
+    img: tg14,
   },
   {
     title: "🐍 Venom Caress",
     description: "They loved you — with poison in their touch.",
-    img: "/images/venom.jpg",
+    img: tg7,
   },
   {
     title: "🔮 The Guilt Seer",
     description: "Visions of who you were, and who you destroyed.",
-    img: "/images/seer.jpg",
+    img: tg5,
   },
   {
     title: "🧨 Desire Detonator",
@@ -71,27 +84,27 @@ const tortures = [
   {
     title: "👅 Tongue of Fire",
     description: "She spoke your name — now it only screams.",
-    img: "/images/tongue.jpg",
+    img: tg4,
   },
   {
     title: "🪞 Echoes of Her",
     description: "She calls from every corner. But never comes back.",
-    img: "/images/echo.jpg",
+    img: tg3,
   },
   {
     title: "🕯 Candle of Longing",
     description: "Burns slow. Smells sweet. Scars forever.",
-    img: "/images/candle.jpg",
+    img: tg8,
   },
   {
     title: "🪰 Flies of Regret",
     description: "They buzz with everything you never said.",
-    img: "/images/flies.jpg",
+    img: tg9,
   },
   {
     title: "🛏 Bed of Nails & Whispers",
     description: "Lie back. Remember. Bleed silently.",
-    img: "/images/bed.jpg",
+    img: tg12,
   },
   {
     title: "🔒 Vault of Secrets",
@@ -101,7 +114,7 @@ const tortures = [
   {
     title: "⏳ Hourglass of Her Absence",
     description: "Time flows slower when you’re haunted.",
-    img: "/images/hourglass.jpg",
+    img: tg10,
   },
   {
     title: "💔 The Heartcrush Waltz",
