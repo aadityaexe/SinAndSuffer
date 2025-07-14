@@ -30,7 +30,7 @@ const TortureChart = () => {
         <h2 className="text-5xl font-bold mb-4 text-red-600">
           Torture Breakdown
         </h2>
-        <p className="text-gray-400 max-w-2xl text-2xl mx-auto">
+        <p className="text-gray-400 max-w-2xl text-3xl mx-auto">
           Every soul suffers differently. Here’s how we serve pain in Hell —
           percentages based on your sins, of course.
         </p>
@@ -72,7 +72,7 @@ const TortureChart = () => {
                 className="w-4 h-4 rounded-full"
                 style={{ backgroundColor: COLORS[index % COLORS.length] }}
               />
-              <p className="text-2xl text-gray-300">
+              <p className="text-3xl text-gray-300">
                 <span className="font-semibold text-white">{item.name}</span>:{" "}
                 {item.value}%
               </p>
