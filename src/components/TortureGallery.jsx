@@ -23,7 +23,7 @@ import {
   tg19,
   tg20,
   tg21,
-} from "../assets/tortureImages";
+} from "../assets/tortureImages.js";
 
 gsap.registerPlugin(ScrollTrigger);
 
