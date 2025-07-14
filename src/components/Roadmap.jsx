@@ -49,8 +49,8 @@ const Roadmap = () => {
                 className="w-24 h-24 rounded-full object-cover mb-4 md:mb-0 md:mr-4"
               />
               <div className=" p-4 rounded-lg shadow-md flex-1">
-                <h3 className="text-3xl font-semibold  mb-2">{phase.title}</h3>
-                <p className="text-xl">{phase.description}</p>
+                <h3 className="text-2xl font-semibold  mb-2">{phase.title}</h3>
+                <p className="text-3xl">{phase.description}</p>
               </div>
             </div>
           ))}
