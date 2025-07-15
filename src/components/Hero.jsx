@@ -1,10 +1,10 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import HeroImg from "../assets/heroImg.png";
-import HeroBgImg from "../assets/heroBg.png"; // Adjust the path as necessary
+import HeroVideo from "../assets/heroV.mp4"; // Replace with actual video path
+
 const Hero = () => {
   const headingRef = useRef(null);
-  const imageRef = useRef(null);
+  const videoRef = useRef(null);
   const textRefs = useRef([]);
 
   useEffect(() => {
@@ -21,7 +21,7 @@ const Hero = () => {
       }
     );
 
-    // Paragraph and Button
+    // Paragraph and Button animation
     gsap.fromTo(
       textRefs.current,
       { opacity: 0, y: 30 },
@@ -35,9 +35,9 @@ const Hero = () => {
       }
     );
 
-    // Image Animation
+    // Video animation
     gsap.fromTo(
-      imageRef.current,
+      videoRef.current,
       { opacity: 0, x: 60 },
       {
         opacity: 1,
@@ -52,10 +52,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen   flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-24 py-16 gap-12 text-black"
-      // style={{
-      //   backgroundImage: `url(${HeroBgImg})`,
-      // }}
+      className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-24 py-16 gap-12 text-black"
     >
       {/* Left Content */}
       <div className="md:w-1/2 text-center md:text-left space-y-6 gap-5">
@@ -67,7 +64,7 @@ const Hero = () => {
         </h1>
         <p
           ref={(el) => (textRefs.current[0] = el)}
-          className="text-4xl  text-gray-700 max-w-xl mx-auto md:mx-0"
+          className="text-4xl text-gray-700 max-w-xl mx-auto md:mx-0"
         >
           You didn’t fall from grace. You dove into desire... and now you're
           home.
@@ -84,13 +81,16 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Right Image */}
+      {/* Right Video */}
       <div className="md:w-1/2 flex justify-center items-center">
-        <img
-          ref={imageRef}
-          src={HeroImg}
-          alt="Token"
-          className="w-64 md:w-96 h-auto drop-shadow-2xl"
+        <video
+          ref={videoRef}
+          src={HeroVideo}
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="w-64 md:w-96 h-auto rounded-2xl drop-shadow-2xl"
         />
       </div>
     </section>

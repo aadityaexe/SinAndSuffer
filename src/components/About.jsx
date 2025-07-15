@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import aboutImg from "../assets/about.png";
+import aboutImg from "../assets/about.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -56,7 +56,7 @@ const About = () => {
           <img
             src={aboutImg}
             alt="About"
-            className="w-full h-auto rounded-2xl shadow-2xl"
+            className="w-auto h-[100vh] rounded-2xl shadow-2xl"
           />
         </div>
 
