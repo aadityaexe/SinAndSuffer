@@ -1,40 +1,33 @@
-/* eslint-disable no-unused-vars */
-import {
-  GoogleGenerativeAI,
-  HarmCategory,
-  HarmBlockThreshold,
-} from "@google/generative-ai";
-const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+const run = async (prompt) => {
+  const apiKey = import.meta.env.VITE_GROQ_API_KEY;
+  const endpoint = "https://api.groq.com/openai/v1/chat/completions";
 
-const genAI = new GoogleGenerativeAI(apiKey);
+  const payload = {
+    model: "meta-llama/llama-4-scout-17b-16e-instruct",
+    messages: [
+      {
+        role: "user",
+        content: prompt,
+      },
+    ],
+  };
 
-const model = genAI.getGenerativeModel({
-  model: "gemini-1.5-flash",
-});
-
-const generationConfig = {
-  temperature: 1,
-  topP: 0.95,
-  topK: 64,
-  maxOutputTokens: 8192,
-  responseMimeType: "text/plain",
-};
-
-async function run(prompt) {
-  const chatSession = model.startChat({
-    generationConfig,
-    history: [],
+  const response = await fetch(endpoint, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${apiKey}`,
+    },
+    body: JSON.stringify(payload),
   });
 
-  try {
-    const result = await chatSession.sendMessage(prompt);
-    const response = result.response;
-    console.log(response.text());
-    return response.text();
-  } catch (error) {
-    console.error("Error in run function:", error);
-    throw error;
+  const data = await response.json();
+
+  if (!response.ok) {
+    throw new Error(data?.error?.message || "Something went wrong");
   }
-}
+
+  return data.choices[0].message.content.trim();
+};
 
 export default run;
