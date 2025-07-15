@@ -73,7 +73,7 @@ const Hero = () => {
           home.
         </p>
         <div>
-          <a href="#faq">
+          <a href="#AskTheAbyss">
             <button
               ref={(el) => (textRefs.current[1] = el)}
               className="px-8 py-3 bg-black text-white text-3xl rounded-2xl font-semibold hover:bg-gray-800 transition-all duration-300"
