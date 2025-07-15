@@ -4,6 +4,7 @@ import Hero from "../components/Hero.jsx";
 import About from "../components/About.jsx";
 import ScrollingText from "../components/ScrollingText.jsx";
 import Footer from "../components/Footer.jsx";
+import AskTheAbyss from "../components/AskTheAbyss.jsx";
 
 // Lazy-loaded components
 const Roadmap = lazy(() => import("../components/Roadmap.jsx"));
@@ -20,6 +21,7 @@ const Home = () => {
     <div>
       <Navbar />
       <Hero />
+      <AskTheAbyss />
       <ScrollingText />
       <About />
 

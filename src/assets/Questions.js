@@ -4162,4 +4162,222 @@ export const faqs = [
     question: "What if I said it was 'just flirting'?",
     answer: "Then Hell flirts too — and its kisses burn through bone.",
   },
+  {
+    question: "What is the greatest loss in humankind?",
+    answer:
+      "The moment they stopped fearing consequence and called it freedom — Hell remembers.",
+  },
+  {
+    question: "What is the cost of silence?",
+    answer:
+      "A soul screaming unheard, burned eternally by truths never spoken.",
+  },
+  {
+    question: "When does innocence truly die?",
+    answer:
+      "At the altar of desire, where virtue is flayed and worn like a mask.",
+  },
+  {
+    question: "What lies beneath forgiveness?",
+    answer:
+      "Rotting confessions stitched with regret — Hell peels them open, one by one.",
+  },
+  {
+    question: "What’s heavier: guilt or grief?",
+    answer:
+      "Guilt — for it chains the soul to its own torment, while grief merely mourns the corpse.",
+  },
+  {
+    question: "What is the sharpest betrayal?",
+    answer: "To offer love with poisoned hands — and watch them drink.",
+  },
+  {
+    question: "Can a soul rot in love?",
+    answer: "Yes — and in Hell, it blossoms into a garden of thorns.",
+  },
+  {
+    question: "What do we trade for comfort?",
+    answer:
+      "Conviction. Purpose. We lie still while demons feast on our spine.",
+  },
+  {
+    question: "What do broken promises become?",
+    answer: "Chains. Each lie wrapped tight around your next life.",
+  },
+  {
+    question: "What is truth without belief?",
+    answer:
+      "A blade — dull in the hand of cowards, sharp in the mouth of the damned.",
+  },
+  {
+    question: "Why does time feel cruel?",
+    answer: "Because in Hell, it doesn't pass. It lingers.",
+  },
+  {
+    question: "What do we lose when we lie?",
+    answer:
+      "Access to our own reflection. Even mirrors in Hell shatter at dishonesty.",
+  },
+  {
+    question: "Is knowing always better than not knowing?",
+    answer: "Only until you know too much — then the fire begins from within.",
+  },
+  {
+    question: "Can pain purify the soul?",
+    answer: "Only if the screams are honest. Hell knows when you're faking it.",
+  },
+  {
+    question: "What do tears remember?",
+    answer: "The flame behind every kiss, the ash left after betrayal.",
+  },
+  {
+    question: "What makes us truly human?",
+    answer: "The ability to walk into the same fire twice — and call it love.",
+  },
+  {
+    question: "Can betrayal be beautiful?",
+    answer:
+      "Only when the betrayer smiles as the blade turns — poetic cruelty at its peak.",
+  },
+  {
+    question: "What do we bury beneath forgiveness?",
+    answer:
+      "Rage, embalmed in silence — Hell digs it back up with iron fingernails.",
+  },
+  {
+    question: "What happens to lust unacted?",
+    answer:
+      "It festers. Then feeds. Then drags you into a pit of imagined sins.",
+  },
+  {
+    question: "What happens to the soul that loves too many?",
+    answer: "It splits — and Hell welcomes each piece separately.",
+  },
+  {
+    question: "Why do sinners laugh?",
+    answer:
+      "Because they think the fire's warmth means they've escaped the cold of guilt.",
+  },
+  {
+    question: "What is the punishment for apathy?",
+    answer:
+      "Eternal witnessing — unable to feel, forever watching others burn for what you ignored.",
+  },
+  {
+    question: "Can shame survive death?",
+    answer:
+      "Yes. It's stitched into the tongue in Hell, so liars still taste their truths.",
+  },
+  {
+    question: "Why do angels fall?",
+    answer:
+      "Because pride tastes sweeter than wings — just before the fall shatters them.",
+  },
+  {
+    question: "Can innocence be faked?",
+    answer: "Yes — but Hell smells the rot beneath your smile.",
+  },
+  {
+    question: "What does regret sound like in Hell?",
+    answer: "A chorus of whispers with your name in every verse.",
+  },
+  {
+    question: "What is the sin of silence?",
+    answer:
+      "Letting evil pass by unchallenged — Hell rewards that with isolation and echoes.",
+  },
+  {
+    question: "What happens to unspoken love?",
+    answer:
+      "It becomes a noose — wrapped in vines, thorns, and memories you can never forget.",
+  },
+  {
+    question: "Do liars feel pain?",
+    answer:
+      "Only when forced to repeat their truth — over and over, to no one who believes them.",
+  },
+  {
+    question: "What does Hell do with the heartbroken?",
+    answer:
+      "It offers them mirrors — cracked, cruel, and showing only the moment they broke.",
+  },
+  {
+    question: "Is selfish love still love?",
+    answer:
+      "Yes — but in Hell, it’s carved into the chest like a badge of dishonor.",
+  },
+  {
+    question: "Can time heal what pride has poisoned?",
+    answer: "Only if time isn’t spent feeding the ego’s fire.",
+  },
+  {
+    question: "What happens when truth is denied?",
+    answer: "It knocks — louder — until your ears bleed with it.",
+  },
+  {
+    question: "What is the worst thing a human can forget?",
+    answer: "That their choices echo beyond this life — and into judgment.",
+  },
+  {
+    question: "What is the true punishment for cheating the heart?",
+    answer: "Knowing you were once loved purely — and turned it to dust.",
+  },
+  {
+    question: "Can a lie be beautiful?",
+    answer: "Yes — just long enough to pull you into the pit.",
+  },
+  {
+    question: "What is the first torture in Hell?",
+    answer: "Memory — unfiltered, unrelenting, and always accurate.",
+  },
+  {
+    question: "Why do demons ask questions?",
+    answer: "To hear what sinners won’t admit — even as they burn.",
+  },
+  {
+    question: "What do we sacrifice to fit in?",
+    answer: "Uniqueness, honesty, and sometimes the soul’s entire voice.",
+  },
+  {
+    question: "What does unrepentant sin taste like?",
+    answer: "Like honey that turns to ash on your tongue.",
+  },
+  {
+    question: "Can you feel alone in love?",
+    answer: "Yes — and Hell is where that feeling never leaves.",
+  },
+  {
+    question: "What is the sin of indifference?",
+    answer: "Letting fire consume others because you feel nothing anymore.",
+  },
+  {
+    question: "Can beauty hide cruelty?",
+    answer: "Often. The most dangerous devils wear roses on their breath.",
+  },
+  {
+    question: "What is the currency of Hell?",
+    answer: "Moments you wish you could undo.",
+  },
+  {
+    question: "Can truth be more painful than fire?",
+    answer: "Yes — because truth cannot be extinguished.",
+  },
+  {
+    question: "What does a soul owe to itself?",
+    answer: "Honesty — even if it hurts. Even if it damns.",
+  },
+  {
+    question: "Is there mercy in Hell?",
+    answer:
+      "Only for those who confessed before the fall. The rest get mirrors, not mercy.",
+  },
+  {
+    question: "Why do the flames whisper names?",
+    answer: "Because guilt is personalized — and eternal.",
+  },
+  {
+    question: "What is the final lesson of love gone wrong?",
+    answer:
+      "That giving too much to the wrong hands burns twice — once in life, once in judgment.",
+  },
 ];
