@@ -5,6 +5,7 @@ import About from "../components/About.jsx";
 import ScrollingText from "../components/ScrollingText.jsx";
 import Footer from "../components/Footer.jsx";
 import AskTheAbyss from "../components/AskTheAbyss.jsx";
+import LineSve from "../components/LineSve.jsx";
 
 // Lazy-loaded components
 const Roadmap = lazy(() => import("../components/Roadmap.jsx"));
@@ -21,25 +22,31 @@ const Home = () => {
     <div>
       <Navbar />
       <Hero />
+
       <AskTheAbyss />
+      <LineSve />
       <ScrollingText />
       <About />
-
+      <LineSve />
       <Suspense fallback={<Loading />}>
         <TortureChart />
       </Suspense>
+      <LineSve />
 
       <Suspense fallback={<Loading />}>
         <Roadmap />
       </Suspense>
+      <LineSve />
 
       <Suspense fallback={<Loading />}>
         <TortureGallery />
       </Suspense>
+      <LineSve />
 
       <Suspense fallback={<Loading />}>
         <Faq />
       </Suspense>
+      <LineSve />
 
       <Footer />
     </div>
