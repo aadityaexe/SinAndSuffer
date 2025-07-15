@@ -147,3 +147,18 @@ textarea {
 html {
   scroll-behavior: smooth;
 }
+
+/* Prevent text selection */
+body {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* Prevent image drag */
+img {
+  pointer-events: none;
+  -webkit-user-drag: none;
+  user-drag: none;
+}
