@@ -101,7 +101,7 @@ Each sin is handled through categorized Q\&A:
 ## 🧙 Author
 
 **Aditya Kumar**
-[GitHub](https://github.com/aadityaexe) • [Portfolio]([#](https://aadityaexe.github.io/myPortfolio/)) • [LinkedIn](www.linkedin.com/in/aditya-kumar-1187a0265)
+[GitHub](https://github.com/aadityaexe) • [Portfolio](https://aadityaexe.github.io/myPortfolio/) • [LinkedIn](www.linkedin.com/in/aditya-kumar-1187a0265)
 
 ---
 
