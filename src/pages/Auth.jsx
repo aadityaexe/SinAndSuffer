@@ -10,7 +10,6 @@ const Auth = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-
   const cardRef = useRef(null);
   const navigate = useNavigate();
 

@@ -20,7 +20,6 @@ const Loading = () => (
 const Home = () => {
   return (
     <div>
-      <Navbar />
       <Hero />
 
       <AskTheAbyss />
@@ -47,8 +46,6 @@ const Home = () => {
         <Faq />
       </Suspense>
       <LineSve />
-
-      <Footer />
     </div>
   );
 };
