@@ -31,7 +31,7 @@ const Mouse = () => {
   return (
     <div
       id="sin-cursor"
-      className="pointer-events-none fixed top-0 left-0 z-[9999] h-6 w-6 
+      className="pointer-events-none fixed top-0 left-0 z-[9999] h-10 w-10 
                  bg-gradient-to-br from-red-800 to-yellow-400 
                  rounded-full shadow-[0_0_25px_rgba(255,0,0,0.6)] 
                  mix-blend-difference"
