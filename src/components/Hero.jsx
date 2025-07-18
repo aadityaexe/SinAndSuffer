@@ -1,12 +1,14 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import HeroVideo from "../assets/heroV.mp4"; // Replace with actual video path
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
   const headingRef = useRef(null);
   const videoRef = useRef(null);
   const textRefs = useRef([]);
 
+  const navigate = useNavigate();
   useEffect(() => {
     // Heading animation
     gsap.fromTo(
@@ -70,8 +72,9 @@ const Hero = () => {
           home.
         </p>
         <div>
-          <a href="#AskTheAbyss">
+          <a href="">
             <button
+              onClick={() => navigate("/auth")}
               ref={(el) => (textRefs.current[1] = el)}
               className="px-8 py-3 bg-black text-white text-3xl rounded-2xl font-semibold hover:bg-gray-800 transition-all duration-300"
             >
