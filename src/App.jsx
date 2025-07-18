@@ -1,6 +1,13 @@
 import React, { useEffect, useRef } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import Home from "./pages/Home";
+import Auth from "./pages/Auth";
 import Mouse from "./components/mouse";
+import AskTheAbyss from "./components/AskTheAbyss";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import LineSve from "./components/LineSve";
 
 const App = () => {
   const audioRef = useRef(null);
@@ -9,13 +16,13 @@ const App = () => {
     const audio = audioRef.current;
 
     if (audio) {
-      audio.volume = 0.2; // Optional low volume
-      audio.muted = true; // ✅ Required for autoplay to work on most browsers
+      audio.volume = 0.2;
+      audio.muted = true;
+
       audio.play().catch((err) => {
         console.warn("Autoplay blocked:", err);
       });
 
-      // Unmute after a short delay or user interaction
       const unmute = () => {
         audio.muted = false;
         audio.volume = 0.2;
@@ -23,25 +30,38 @@ const App = () => {
         window.removeEventListener("click", unmute);
       };
 
-      // 🔓 Wait for user click to unmute (bypasses browser restrictions)
       window.addEventListener("click", unmute);
     }
   }, []);
 
   return (
-    <div>
-      {/* ✅ Audio file must be in /public */}
-      <audio
+    <Router>
+      <Mouse />
+      {/* <audio
         ref={audioRef}
         src="/WhispersOfTheAbyss.mp3"
         loop
         autoPlay
         preload="auto"
         style={{ display: "none" }}
-      />
-      <Mouse />
-      <Home />
-    </div>
+      /> */}
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/auth" element={<Auth />} />
+        <Route
+          path="/ask-the-abyss"
+          element={
+            <>
+              <LineSve />
+              <AskTheAbyss />
+            </>
+          }
+        />
+        {/* Add more routes here if needed */}
+      </Routes>{" "}
+      <Footer />
+    </Router>
   );
 };
 
