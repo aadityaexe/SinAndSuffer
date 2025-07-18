@@ -22,7 +22,6 @@ const Home = () => {
     <div>
       <Hero />
 
-      <AskTheAbyss />
       <LineSve />
       <ScrollingText />
       <About />
