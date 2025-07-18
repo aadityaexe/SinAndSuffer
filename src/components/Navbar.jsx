@@ -1,16 +1,18 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => setIsOpen(!isOpen);
 
+  const navigate = useNavigate();
   return (
     <nav className="bg-black border-b-2 fixed border-pink-600 shadow-md w-full z-50">
       <div className="max-w-[1400px] w-full mx-auto px-8 xl:px-20 py-5 flex justify-between items-center ml-7">
         {/* Logo + Tagline */}
         <div className="flex flex-col">
-          <a href="#hero">
+          <a href="#hero" onClick={() => navigate("/")}>
             {" "}
             <h1 className="text-pink-500 font-black text-4xl lg:text-5xl tracking-widest">
               Sin & Suffer
