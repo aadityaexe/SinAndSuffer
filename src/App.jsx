@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+// Pages & Components
 import Home from "./pages/Home";
 import Auth from "./pages/Auth";
 import Mouse from "./components/mouse";
@@ -36,16 +37,23 @@ const App = () => {
 
   return (
     <Router>
+      {/* Custom Cursor Component */}
       <Mouse />
-      {/* <audio
+
+      {/* Background Whispering Audio */}
+      <audio
         ref={audioRef}
         src="/WhispersOfTheAbyss.mp3"
         loop
         autoPlay
         preload="auto"
         style={{ display: "none" }}
-      /> */}
+      />
+
+      {/* Site Navigation */}
       <Navbar />
+
+      {/* Route Definitions */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/auth" element={<Auth />} />
@@ -58,8 +66,25 @@ const App = () => {
             </>
           }
         />
-        {/* Add more routes here if needed */}
-      </Routes>{" "}
+        {/* Fallback Route for 404 */}
+        <Route
+          path="*"
+          element={
+            <div
+              style={{
+                color: "red",
+                textAlign: "center",
+                fontSize: "2rem",
+                marginTop: "100px",
+              }}
+            >
+              404 - Page Not Found
+            </div>
+          }
+        />
+      </Routes>
+
+      {/* Footer */}
       <Footer />
     </Router>
   );
