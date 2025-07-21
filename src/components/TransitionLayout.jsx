@@ -11,23 +11,30 @@ const TransitionLayout = () => {
   const transitionRef = useRef();
   const textRef = useRef();
   const location = useLocation();
+  const [showContent, setShowContent] = useState(false);
 
   useEffect(() => {
     let split;
+    setShowContent(false); // Hide content on route change
 
     const ctx = gsap.context(() => {
       const tl = gsap.timeline({
-        onComplete: () => setShowContent(true),
+        onComplete: () => {
+          // Wait until animation completes, then show page
+          setShowContent(true);
+        },
       });
 
-      // Reset
+      // Reset position before starting
       gsap.set(transitionRef.current, { y: "-100%" });
 
+      // Split text into animated words
       split = new SplitText(textRef.current, {
         type: "words",
         wordsClass: "split-word",
       });
 
+      // Transition animation
       tl.to(transitionRef.current, {
         y: 0,
         duration: 0.6,
@@ -55,7 +62,7 @@ const TransitionLayout = () => {
 
     return () => {
       ctx.revert();
-      split && split.revert();
+      if (split) split.revert();
     };
   }, [location.pathname]);
 
@@ -63,21 +70,21 @@ const TransitionLayout = () => {
     <>
       <div
         ref={transitionRef}
-        className="fixed top-0 left-0 w-full h-full bg-black z-[9999] flex items-center justify-center"
+        className="fixed top-0 left-0 w-full h-full bg-black z-[9999] flex items-center justify-center pointer-events-none"
         style={{ transform: "translateY(-100%)" }}
       >
         <div className="w-[90vw] px-6 md:px-12 text-center">
           <h1
             ref={textRef}
-            className="animate-me text-red-600 text-2xl md:text-4xl font-bold tracking-widest uppercase leading-snug"
+            className="text-red-600 text-2xl md:text-4xl font-bold tracking-widest uppercase leading-snug"
           >
             {message}
           </h1>
         </div>
       </div>
 
-      {/* Only render the route content after transition completes */}
-      <Outlet />
+      {/* Only render content after transition completes */}
+      {showContent && <Outlet />}
     </>
   );
 };
