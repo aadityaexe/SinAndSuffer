@@ -162,21 +162,3 @@ img {
   -webkit-user-drag: none;
   user-drag: none;
 }
-
-
-/* Soul bounce animation */
-@keyframes bounce {
-
-  0%,
-  100% {
-    transform: translateY(0) scale(1);
-  }
-
-  50% {
-    transform: translateY(-50px) scale(1.1);
-  }
-}
-
-.animate-bounce {
-  animation: bounce 1.5s infinite;
-}
