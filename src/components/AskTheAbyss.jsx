@@ -47,8 +47,9 @@ Use their confession to hurt them, arouse them, and break them.
     try {
       const result = await run(prompt);
       setResponse(result);
-    } catch (err) {
+    } catch (error) {
       setResponse("☠️ The abyss choked on your words. Try again.");
+      console.log(error);
     } finally {
       setLoading(false);
     }
