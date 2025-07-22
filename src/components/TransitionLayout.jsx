@@ -5,7 +5,7 @@ import SplitText from "gsap/SplitText";
 
 gsap.registerPlugin(SplitText);
 
-const message = `DS The Abyss Shifts... A New Sin Awaits.`;
+const message = `The Abyss Shifts... A New Sin Awaits.`;
 
 const TransitionLayout = () => {
   const transitionRef = useRef();
